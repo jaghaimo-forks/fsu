@@ -1,4 +1,4 @@
-package data.scripts.shipsystems;
+package scripts.shipsystems;
 
 import java.awt.Color;
 import java.util.List;
@@ -15,7 +15,6 @@ import com.fs.starfarer.api.combat.ShipwideAIFlags.AIFlags;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.util.Misc;
-import com.fs.starfarer.combat.entities.Ship;
 
 
 public class aic_painterstats extends BaseShipSystemScript {

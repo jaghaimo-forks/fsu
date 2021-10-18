@@ -1,4 +1,4 @@
-package data.scripts.weapons;
+package scripts.weapons;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.util.IntervalUtil;

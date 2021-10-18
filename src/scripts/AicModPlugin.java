@@ -12,7 +12,7 @@ import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Ranks;
 import com.fs.starfarer.api.impl.campaign.ids.Skills;
-import data.scripts.world.systems.AicGen;
+import scripts.world.systems.AicGen;
 import org.dark.shaders.light.LightData;
 import org.dark.shaders.util.ShaderLib;
 import org.dark.shaders.util.TextureData;
@@ -120,8 +120,8 @@ public class AicModPlugin extends BaseModPlugin {
                     person.getName().setFirst("Aku");
                     person.getName().setLast("Ganymede");
                     person.setPortraitSprite("graphics/portraits/portrait38.png");
-                    person.getStats().setSkillLevel(Skills.FLEET_LOGISTICS, 3);
-                    person.getStats().setSkillLevel(Skills.PLANETARY_OPERATIONS, 3);
+                    person.getStats().setSkillLevel(Skills.SPACE_OPERATIONS, 1);
+                    person.getStats().setSkillLevel(Skills.PLANETARY_OPERATIONS, 1);
 
                     market.setAdmin(person);
                     market.getCommDirectory().addPerson(person, 0);
@@ -139,8 +139,8 @@ public class AicModPlugin extends BaseModPlugin {
                     person.getName().setFirst("Alistar");
                     person.getName().setLast("Deimos");
                     person.setPortraitSprite("graphics/portraits/portrait_pirate01.png");
-                    person.getStats().setSkillLevel(Skills.FLEET_LOGISTICS, 3);
-                    person.getStats().setSkillLevel(Skills.PLANETARY_OPERATIONS, 3);
+                    person.getStats().setSkillLevel(Skills.SPACE_OPERATIONS, 1);
+                    person.getStats().setSkillLevel(Skills.PLANETARY_OPERATIONS, 1);
 
                     market2.setAdmin(person);
                     market2.getCommDirectory().addPerson(person, 0);
@@ -158,7 +158,7 @@ public class AicModPlugin extends BaseModPlugin {
                     person.getName().setFirst("Viktor");
                     person.getName().setLast("Mainyu");
                     person.setPortraitSprite("graphics/portraits/portrait_mercenary04.png");
-                    person.getStats().setSkillLevel(Skills.FLEET_LOGISTICS, 2);
+                    person.getStats().setSkillLevel(Skills.SPACE_OPERATIONS, 1);
                     person.getStats().setSkillLevel(Skills.PLANETARY_OPERATIONS, 1);
 
                     market3.setAdmin(person);

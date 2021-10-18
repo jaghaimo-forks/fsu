@@ -1,4 +1,4 @@
-package data.scripts.world.systems;
+package scripts.world.systems;
 
 
 import com.fs.starfarer.api.campaign.FactionAPI;
@@ -7,8 +7,8 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
-import data.scripts.world.systems.oms.Oms;
-import data.scripts.world.systems.provi.Provi;
+import scripts.world.systems.oms.Oms;
+import scripts.world.systems.provi.Provi;
 
 
 

@@ -1,4 +1,4 @@
-package data.scripts.world.systems.provi;
+package scripts.world.systems.provi;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;

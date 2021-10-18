@@ -3,7 +3,7 @@
 	"specClass":"missile",	
 	"missileType":"MISSILE",
 	"sprite":"graphics/missiles/aic_ssms_shot.png",
-	"onHitEffect":"data.scripts.weapons.aic_ssms_oh",		
+	"onHitEffect":"scripts.weapons.aic_ssms_oh",		
 	"size":[9,13],	
 	"center":[4.5,6.5],
 	"collisionRadius":10,
