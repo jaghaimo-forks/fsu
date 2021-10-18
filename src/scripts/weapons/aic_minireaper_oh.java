@@ -7,6 +7,8 @@ import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.OnHitEffectPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
+
 import org.lwjgl.util.vector.Vector2f;
 import org.lazywizard.lazylib.MathUtils;
 import java.awt.Color;
@@ -21,7 +23,8 @@ public class aic_minireaper_oh implements OnHitEffectPlugin {
 	private static final String SOUND_ID = "aic_ssms_explo";
 	
     @Override
-    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, CombatEngineAPI engine) {
+    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit,
+            ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
 
 
         if (target instanceof ShipAPI && !shieldHit && Math.random() <= EXTRA_DMG_CHANCE) {

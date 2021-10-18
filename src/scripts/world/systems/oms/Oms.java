@@ -1,4 +1,4 @@
-package data.scripts.world.systems.oms;
+package scripts.world.systems.oms;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;

@@ -3,7 +3,7 @@
 	"type":"STAT_MOD",
 	"aiType":"ENTROPY_AMPLIFIER",
 	
-	"statsScript":"data.scripts.shipsystems.aic_painterstats",
+	"statsScript":"scripts.shipsystems.aic_painterstats",
 
 	"runScriptWhileIdle":true, # unapply() never gets called
 		

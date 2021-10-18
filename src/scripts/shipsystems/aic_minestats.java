@@ -1,4 +1,4 @@
-package data.scripts.shipsystems;
+package scripts.shipsystems;
 
 import java.awt.Color;
 import java.util.List;
@@ -188,7 +188,7 @@ public class aic_minestats extends BaseShipSystemScript implements MineStrikeSta
 	
 	
 	protected float getMaxRange(ShipAPI ship) {
-		return getMineRange();
+		return getMineRange(ship);
 	}
 
 	
@@ -275,7 +275,7 @@ public class aic_minestats extends BaseShipSystemScript implements MineStrikeSta
 
 
 
-	public float getMineRange() {
+	public float getMineRange(ShipAPI ship) {
 		return MINE_RANGE;
 	}
 

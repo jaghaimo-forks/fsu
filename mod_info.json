@@ -4,7 +4,7 @@
 	"author":"Kissa Mies",
 	"version":"1.2.0",
 	"description":"Adds a new friendly neighborhood Union. (Contains NO pirates)",
-	"gameVersion":"0.9.1a",
+	"gameVersion":"0.95a-RC15",
 	"modPlugin":"scripts.AicModPlugin",
 	"jars":["jars/FSU.jar"]
 }

@@ -6,6 +6,8 @@ import java.util.List;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
+
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
 import org.lazywizard.lazylib.combat.entities.SimpleEntity;
@@ -27,7 +29,8 @@ public class aic_hook_oh implements OnHitEffectPlugin {
     private static final Vector2f ZERO = new Vector2f();
 
 
-    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, CombatEngineAPI engine) {
+    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit,
+            ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
 
             if (target == null || point == null) {
                 return;

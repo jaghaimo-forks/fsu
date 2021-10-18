@@ -3,7 +3,7 @@
 	"type":"STAT_MOD",
 	"aiType":"MINE_STRIKE",
 	
-	"statsScript":"data.scripts.shipsystems.aic_minestats",
+	"statsScript":"scripts.shipsystems.aic_minestats",
 
 	"canUseWhileRightClickSystemOn":true,
 
