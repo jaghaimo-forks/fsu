@@ -1,0 +1,23 @@
+{
+    "hullFrequency":{
+        "hulls":{
+	    "aic_frigmk2":1,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+	    "aic_frigmk2",
+        ],
+    },
+	"knownHullMods":{
+		"tags":["",],
+		"hullMods":[
+			"aic_fso",
+		],
+	},
+	
+}
+
+
+
+

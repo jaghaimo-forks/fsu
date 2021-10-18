@@ -1,0 +1,217 @@
+{
+  "hullName": "Yakalo",
+  "hullId": "aic_freighterd1",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/aic_freighterd1.png",
+  "style": "AIC_LOW_TECH",
+  "height": 202,
+  "width": 122,
+  "center": [61, 99],
+  "collisionRadius": 134.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 131.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "aic_ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0009": "aic_blinker",
+    "WS0010": "aic_blinker",
+    "WS0011": "aic_blinker",
+    "WS0012": "aic_blinker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 0,
+      "locations": [62, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [0, -40]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [0, 40]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 180,
+      "locations": [-54, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [30, -40]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [30, 40]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [49, -35]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [49, 35]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-23.5, -36]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-23.5, 36]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-25.5, -36]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-25.5, 36]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91.5, -19],
+      "length": 52,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-91.5, 19],
+      "length": 52,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-91, -19],
+      "length": 12.5,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    },
+    {
+      "location": [-91, 19],
+      "length": 12.5,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    }
+  ],
+  "bounds": [
+    94, 8,
+    86, 29,
+    75, 33,
+    55, 33.5,
+    55, 39,
+    43, 39,
+    42, 34.5,
+    36, 45,
+    24, 45,
+    24, 41,
+    16, 42,
+    14, 48,
+    1, 50.5,
+    -1, 55,
+    -20.5, 56,
+    -21.5, 41,
+    -29, 41,
+    -33, 48,
+    -52, 48,
+    -91, 25,
+    -90, 11.5,
+    -73, 6,
+    -73, -6,
+    -90, -11.5,
+    -91, -25,
+    -52, -48,
+    -33, -48,
+    -29, -41,
+    -21.5, -41,
+    -20.5, -56,
+    -1, -55,
+    1, -50.5,
+    14, -48,
+    16, -42,
+    24, -41,
+    24, -45,
+    36, -45,
+    42, -34.5,
+    43, -39,
+    55, -39,
+    55, -33.5,
+    75, -33,
+    86, -29,
+    94, -8
+  ]
+}

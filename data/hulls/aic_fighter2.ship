@@ -1,0 +1,203 @@
+{
+  "bounds": [
+    24.5,
+    4,
+    5.5,
+    7.5,
+    -2,
+    22.5,
+    -23.5,
+    10,
+    -23.5,
+    -10,
+    -2,
+    -22.5,
+    5.5,
+    -7.5,
+    24.5,
+    -4
+  ],
+  "builtInMods": [
+	"autorepair",
+    "no_weapon_flux"
+  ],
+  "builtInWings": [],
+  "center": [
+    22,
+    30.5
+  ],
+  "collisionRadius": 36.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 40,
+      "location": [
+        -22.5,
+        -12.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_ABSO",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 40,
+      "location": [
+        -22.5,
+        12.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_ABSO",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 40,
+      "location": [
+        -24.5,
+        -9
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_ABSO",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 40,
+      "location": [
+        -24.5,
+        9
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_ABSO",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 40,
+      "location": [
+        -25,
+        -4.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_ABSO",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 40,
+      "location": [
+        -25,
+        4.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_ABSO",
+      "width": 8
+    }
+  ],
+  "height": 62,
+  "hullId": "aic_fighter2",
+  "hullName": "Absolution",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 36,
+  "spriteName": "graphics/ships/drones/aic_fighter2.png",
+  "style": "AIC_MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 31,
+      "id": "WS0001",
+      "locations": [
+        7,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0002",
+      "locations": [
+        -0.5,
+        13.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 30,
+      "id": "WS0003",
+      "locations": [
+        -0.5,
+        -13.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 226,
+      "id": "WS0004",
+      "locations": [
+        -6,
+        -9.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 226,
+      "id": "WS0005",
+      "locations": [
+        -6,
+        9.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -45,
+      "arc": 158,
+      "id": "WS0006",
+      "locations": [
+        1.5,
+        -5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 45,
+      "arc": 158,
+      "id": "WS0007",
+      "locations": [
+        1.5,
+        5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 44
+}

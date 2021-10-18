@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Just Cause,aic_md,,TRUE,scripts.campaign.econ.aic_md,"The Union population has fought hard to survive and is willing to fight until the bitter end in the face of certain doom. Improves ground defenses and fleet size when under Union control.",graphics/icons/markets/mercenaries.png,130

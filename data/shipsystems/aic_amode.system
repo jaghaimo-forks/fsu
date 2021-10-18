@@ -1,0 +1,18 @@
+{
+	"id":"aic_amode",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.aic_amodeStats",
+	
+	"weaponGlowColor":[255,149,0,155],
+	"weaponTypes":[BALLISTIC, ENERGY, MISSILE],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":700,
+		"threatAmount":40,
+	}
+}

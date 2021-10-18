@@ -1,0 +1,196 @@
+{
+  "hullName": "Slasher (R)",
+  "hullId": "aic_frig3r",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aic_frig3r.png",
+  "style": "AIC_LOW_TECH",
+  "height": 95,
+  "width": 76,
+  "center": [38, 47.5],
+  "collisionRadius": 74.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 71.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "aic_rm",
+	"aic_rm2",
+    "aic_qadvised"
+  ],
+  "builtInWeapons": {
+    "WS0004": "typhoon",
+    "WS0005": "aic_blinker",
+    "WS0006": "aic_blinker",
+    "WS0007": "aic_blinker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [1.5, -27]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [1.5, 27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-9, -0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [32, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-34, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-32, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-30, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-38, 14.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-36, 19],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-38, -14.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-36, -19],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-42.5, -0],
+      "length": 11,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    },
+    {
+      "location": [-37.5, 14.5],
+      "length": 8,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    },
+    {
+      "location": [-37.5, -14.5],
+      "length": 8,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    },
+    {
+      "location": [-35.5, 19],
+      "length": 8,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    },
+    {
+      "location": [-35.5, -19],
+      "length": 8,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    }
+  ],
+  "bounds": [
+    35.5, 7,
+    20.5, 17.5,
+    2.5, 18.5,
+    4, 31,
+    -23.5, 30.5,
+    -42, 3.5,
+    -42, -3.5,
+    -23.5, -30.5,
+    4, -31,
+    2.5, -18.5,
+    20.5, -17.5,
+    35.5, -7
+  ]
+}

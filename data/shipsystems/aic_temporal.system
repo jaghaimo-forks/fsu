@@ -1,0 +1,21 @@
+{
+	"id":"aic_temporal",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"scripts.shipsystems.aic_temporalstats",
+	
+	"alwaysAccelerate":true,
+	"clampMaxSpeedAfter":true,
+	
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"aic_temporall_activate",
+	"loopSound":"aic_temporall_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":750,
+	}
+}

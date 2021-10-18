@@ -1,0 +1,43 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "aic_dess1r",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "aic_dess1r_so",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "chaingun",
+                "WS0004": "chaingun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "reaper",
+                "WS0012": "reaper",
+                "WS0013": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightdualmg",
+                "WS0002": "lightdualmg",
+                "WS0005": "lightdualmg",
+                "WS0006": "lightdualmg",
+                "WS0007": "lightdualmg",
+                "WS0008": "lightdualmg",
+                "WS0009": "lightdualmg",
+                "WS0010": "lightdualmg"
+            }
+        }
+    ]
+}

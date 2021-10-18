@@ -1,0 +1,45 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "aic_freighterc1",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "aic_freighterc1_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "aic_spikem",
+                "WS0003": "aic_spikem",
+                "WS0004": "sabot",
+                "WS0005": "sabot",
+                "WS0008": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavyac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "lightag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "flak",
+                "WS0007": "flak"
+            }
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

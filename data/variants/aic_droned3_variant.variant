@@ -1,0 +1,22 @@
+{
+  "displayName": "Swarm Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "aic_droned3",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aic_droned3_variant",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "aic_minilas"
+      }
+    }
+  ],
+  "wings": []
+}

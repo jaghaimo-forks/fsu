@@ -1,0 +1,57 @@
+{
+  "id": "aic_mneutron",
+  "specClass": "projectile",
+  "projectileSpecId": "aic_hneutron_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/aic_mneutron_turret.png",
+  "turretGlowSprite": "graphics/weapons/aic_mneutron_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/aic_mneutron_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/aic_mneutron_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    255,
+    100,
+    255
+  ],
+  "turretOffsets": [
+    20,
+    -10,
+    20,
+    10
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    26.5,
+    -9,
+    26.5,
+    9
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "interruptibleBurst":false,
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 20,
+    "particleSizeMin": 30,
+    "particleSizeRange": 15,
+    "particleDuration": 0.18,
+    "particleCount": 18,
+    "particleColor": [
+      255,
+      255,
+      100,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "aic_hneutron_fire"
+}

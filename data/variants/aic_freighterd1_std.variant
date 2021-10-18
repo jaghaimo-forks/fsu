@@ -1,0 +1,36 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "aic_freighterd1",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "variantId": "aic_freighterd1_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavyac"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "aic_tremors",
+                "WS0006": "aic_tremors",
+                "WS0007": "aic_tremors",
+                "WS0008": "aic_tremors"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "vulcan",
+                "WS0003": "vulcan",
+                "WS0004": "vulcan"
+            }
+        }
+    ]
+}

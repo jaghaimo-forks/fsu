@@ -1,0 +1,19 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "aic_buffalor",
+    "hullMods": [
+        "converted_hangar",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "variantId": "aic_buffalor_std",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "lightdualac"}
+    }],
+    "wings": ["aic_droned3_wing"]
+}

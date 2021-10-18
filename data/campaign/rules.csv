@@ -1,0 +1,53 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME aic,,,,,,
+,,,,,,
+# Free Stars Union fleet greeting lines,,,,,,
+greetingaicFriendly,OpenCommLink,"$faction.id == aic
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hey, it's great to see a loyal captain! May fortune be with you captain.""",,
+greetingaicHostileWeaker,OpenCommLink,"$faction.id == aic
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""Your fleet has been identified as hostile. Please power down your systems and surrender immidiately. The Sentinel never forgets your crimes.""",cutCommLink:Cut the comm link,
+greetingaicHostileWeakerDefiant,OpenCommLink,"$faction.id == aic
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""You are identified as our enemy. We suggest you leave this area as soon as you can. Or prepare for the worst!""",cutCommLink:Cut the comm link,
+greetingaicHostileStronger,OpenCommLink,"$faction.id == aic
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""Hello &playerName, one of our favorite criminals! I hope you are ready for what is about to happen to you once we capture you.""
+The comm link is then cutted.",cutCommLink:Cut the comm link,
+greetinggaicNeutral,OpenCommLink,"$faction.id == aic
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hello Commander. The Free Stars Union wish you a good day.""",,
+#END Free Stars Union fleet greeting lines,,,,,,
+#Free Stars Union Market Flavor
+flavorTextMarketaic,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == aic","AddText ""You arrive at a marketplace bustling with countless merchants selling both mundane and exotic goods that would be illegal in most other places. Unlike many other markets you've been to you can only barely spot a handful of guards in Union uniforms through all the commotion."" marketFlavorTextColor",,,
+flavorTextMarketair,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == air","AddText ""The port concourse is filled with a few scarred hulls underlit by the flicker of ID-chips being lasered off cargo containers. Armed Revolution crews huddle around their ships, glaring and posturing challenges at rival crews.The entire facility look more poorly-maintained than usual with suspicious scorches and stains marring several bulkheads. Market guards stare coolly, ready to use their weapons."" marketFlavorTextColor",,,
+# Free Stars Revolution fleet greeting lines,,,,,,
+greetingairFriendly,OpenCommLink,"$faction.id == air
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hey, it's great to see a loyal captain! May freedom be with you captain.""",,
+greetingairHostileWeaker,OpenCommLink,"$faction.id == air
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""Your fleet has been identified as hostile. Please power down your systems and surrender immidiately. The Revolution will not be stopped!.""",cutCommLink:Cut the comm link,
+greetingairHostileWeakerDefiant,OpenCommLink,"$faction.id == air
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""You are identified as our enemy. We suggest you leave this area as soon as you can. Or prepare for your oppression to end!""",cutCommLink:Cut the comm link,
+greetingairHostileStronger,OpenCommLink,"$faction.id == air
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""Hello &playerName, Your reign of terror is OVER!""
+The comm link is then cutted.",cutCommLink:Cut the comm link,
+greetinggairNeutral,OpenCommLink,"$faction.id == air
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hello Commander. The Free Stars Revolution wish you a glorious day.""",,
+#END Free Stars Revolution fleet greeting lines,,,,,,
+# turning AI cores in,,,,,,
+aiCores_turnInOptionSelaic,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == aic",FireAll PopulateCoresTurnInOptions,"""You hold quite the object of power, Your donation to the cause will be greatly appreciated. The Union does not forget its allies.""",,
+aiCores_turnInResponseaic,AICoresTurnedIn,$faction.id == aic,FireAll PopulateOptions,$PersonRank $personLastName thanks you for your loyalty and the conversation moves on to less important matters.,,
+aiCores_turnInOptionSelair,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == air",FireAll PopulateCoresTurnInOptions,"""You hold quite the object of power, Your great donation to the cause will be greatly appreciated. The Fires of revolution will burn even brighter!""",,
+aiCores_turnInResponseair,AICoresTurnedIn,$faction.id == air,FireAll PopulateOptions,$PersonRank $personLastName thanks you for the great sacrifice to the cause and the conversation moves on to less important matters.,,

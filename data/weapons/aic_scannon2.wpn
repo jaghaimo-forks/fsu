@@ -1,0 +1,57 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 750,
+  "fireSoundTwo": "aic_scannon_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/aic_scannon2_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    44,
+    5,
+    44,
+    -5
+  ],
+  "hardpointSprite": "graphics/weapons/aic_scannon2_hardpoint.png",
+  "hardpointUnderSprite": "graphics/weapons/aic_scannon2_under_hardpoint.png",
+  "id": "aic_scannon2",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "particleColor": [
+      255,
+      162,
+      100,
+      200
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.15,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "spread": 2
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "aic_scannon_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/aic_scannon2_turret_recoil.png",
+  "turretOffsets": [
+    33.5,
+    5,
+    33.5,
+    -5
+  ],
+  "turretSprite": "graphics/weapons/aic_scannon2_turret.png",
+  "turretUnderSprite": "graphics/weapons/aic_scannon2_under_turret.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 5
+}

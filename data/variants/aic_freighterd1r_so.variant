@@ -1,0 +1,39 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+	"goalVariant": true,
+    "hullId": "aic_freighterd1r",
+    "hullMods": [
+        "safetyoverrides",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "variantId": "aic_freighterd1r_so",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "harpoon",
+                "WS0006": "harpoon",
+                "WS0007": "harpoon",
+                "WS0008": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightdualmg",
+                "WS0003": "lightdualmg",
+                "WS0004": "lightmg"
+            }
+        }
+    ]
+}

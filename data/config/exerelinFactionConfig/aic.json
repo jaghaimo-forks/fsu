@@ -1,0 +1,111 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"ngcTooltip":"Start as a fresh navy captain for the Union. Will you smash the oppressors and bring freedom to the sector, Or will you perish under the war machine like so many others",
+    
+    "rebelFleetSuffix":"Uprising",
+	
+	"invasionSupportFleetName":"Protectors",
+    "responseFleetName":"Counter-Strike",
+    "defenceFleetName":"Bulwark",
+    
+    "marketSpawnWeight":1.25,
+
+	"factionsLiked":[
+    		"tritachyon",
+    		"independent",
+			"persean",
+    		"pirates",
+	], # String array
+    "factionsDisliked":[
+    		"luddic_path",
+    		"luddic_church",
+    		"hegemony",
+	], # String array
+    "startRelationships":{ 
+		"tritachyon":0.4, 
+		"hegemony":-0.6,
+		"luddic_path":-0.75,
+		"luddic_church":-0.75,
+		"independent":-0.1,
+		"persean":0.3,
+		"pirates":0.2,
+	},
+	"maxRelationships":{ 
+	"hegemony":-0.65,
+	"luddic_path":-0.75,
+	"luddic_church":-0.55,
+	},
+	"diplomacyPositiveChance":{ 
+		"hegemony":0.2,
+		"luddic_church":0.4,
+		"tritachyon":1.4,
+		"persean":1.2,
+	},
+    "diplomacyNegativeChance":{ 
+		"hegemony":1.6,
+		"luddic_church":1.4,
+		"tritachyon":0.3,
+		"persean":0.5,
+	},
+    
+    "alignments":{
+        "technocratic":0.3,
+		"corporate":0.0,
+        "militarist":0.2,
+        "diplomatic":-0.5,
+        "ideological":-0.4,
+    },
+	
+	"diplomacyTraits":["selfrighteous", "stalwart", "anarchist", "irredentist"],
+	
+	"morality":"amoral",
+	
+	"colonyExpeditionChance":0.75,
+    "maxColonyDistance":12.0,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.CommanderNamer",
+	
+	"vengeanceLevelNames":["Seeker", "Hunter Killers", "Assassination"],
+    "vengeanceFleetNames":["Seeker", "Hunter Killers", "Assassination"],
+    "vengeanceFleetNamesSingle":["a Hunter Seeker", "a Hunter Killer Pack", "an Assassination Party"],
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    
+    "startShipsSolo":[
+		["aic_frig3_std"]
+	],
+    "startShipsCombatSmall":[
+		["aic_frig1_std", "aic_frig2_std", "aic_frig3_std"]
+    ],
+    "startShipsCombatLarge":[
+		["aic_cruiser1_std", "aic_cruiser2_std", "aic_dess2_std"]
+    ],
+    "startShipsCarrierLarge":[
+		["aic_carriec1_std", "aic_cruiser1_std", "aic_dess2_std"]
+	],
+    "startShipsGrandFleet":[
+		["aic_cruiser3_std", "aic_cruiser1_std", "aic_cruiser2_std", "aic_dess1_std", "aic_dess2_std", "aic_frig2_std", "aic_frig3_std"]
+	],
+    
+    "startSpecialItems":[
+        [["aic_bp", ""]],
+		[["aic_wbp", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+    ],
+    
+	"industrySeeds":[
+        {"id":"orbitalworks", "mult":1.2},
+		{"id":"heavyindustry", "mult":1.5},
+		{"id":"highcommand", "mult":2},
+    ],
+	
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

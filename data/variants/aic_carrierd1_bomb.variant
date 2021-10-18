@@ -1,0 +1,34 @@
+{
+    "displayName": "Bomber",
+    "fluxCapacitors": 3,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "aic_carrierd1",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "variantId": "aic_carrierd1_bomb",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "gravitonbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "pilum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "aic_bomber1_wing",
+        "aic_bomber1_wing"
+    ]
+}

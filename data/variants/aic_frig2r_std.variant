@@ -1,0 +1,36 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "aic_frig2r",
+    "hullMods": [
+        "reinforcedhull",
+        "armoredweapons",
+        "autorepair"
+    ],
+    "permaMods": [],
+    "variantId": "aic_frig2r_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "chaingun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightdualmg",
+                "WS0003": "lightdualmg",
+                "WS0004": "lightdualmg"
+            }
+        }
+    ],
+    "wings": []
+}

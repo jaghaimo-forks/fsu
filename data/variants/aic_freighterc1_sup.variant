@@ -1,0 +1,38 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "aic_freighterc1",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "variantId": "aic_freighterc1_sup",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "aic_cruisem",
+                "WS0003": "aic_cruisem",
+                "WS0004": "aic_spikes",
+                "WS0005": "aic_spikes",
+                "WS0008": "aic_spikes",
+                "WS0009": "aic_spikes"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hveldriver",
+                "WS0006": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "dualflak"}
+        }
+    ],
+    "wings": ["claw_wing"]
+}

@@ -1,0 +1,47 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+	"goalVariant": true,
+    "hullId": "aic_freighterc1r",
+    "hullMods": [
+        "safetyoverrides",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "variantId": "aic_freighterc1r_so",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "sabotpod",
+                "WS0003": "sabotpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "harpoon",
+                "WS0005": "harpoon",
+                "WS0008": "harpoon",
+                "WS0009": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "aic_nailgun",
+                "WS0007": "aic_nailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymg"}
+        }
+    ],
+    "wings": ["aic_droned3_wing"]
+}

@@ -1,0 +1,57 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "atropos_firet",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    5.5,
+    -5,
+    5.5,
+    5
+  ],
+  "hardpointSprite": "graphics/weapons/aic_tremorrack_hardpoint.png",
+  "id": "aic_tremors",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "aic_tremor1",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "SMALL",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackParticleCount": 4,
+    "blowbackSpread": 15,
+    "cloudDuration": 1.5,
+    "cloudParticleCount": 6,
+    "cloudRadius": 10,
+    "particleColor": [
+      125,
+      75,
+      25,
+      105
+    ],
+    "particleSizeMin": 12,
+    "particleSizeRange": 12
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretOffsets": [
+    3,
+    -5,
+    3,
+    5
+  ],
+  "turretSprite": "graphics/weapons/aic_tremorrack_turret.png",
+  "type": "MISSILE"
+}

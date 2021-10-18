@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "aic_dramr",
+    "hullMods": [
+        "reinforcedhull",
+        "heavyarmor",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "variantId": "aic_dramr_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "reaper"}
+        }
+    ]
+}

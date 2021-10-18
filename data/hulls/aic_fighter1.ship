@@ -1,0 +1,159 @@
+{
+  "bounds": [
+    15.5,
+    2.5,
+    11,
+    16,
+    5,
+    16,
+    -6,
+    21,
+    -15.5,
+    11.5,
+    -15.5,
+    -11.5,
+    -6,
+    -21,
+    5,
+    -16,
+    11,
+    -16,
+    15.5,
+    -2.5
+  ],
+  "builtInMods": [
+    "autorepair",
+    "no_weapon_flux"
+  ],
+  "builtInWings": [],
+  "center": [
+    23,
+    17
+  ],
+  "collisionRadius": 48.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 31,
+      "location": [
+        -16.5,
+        -8
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_SCORCH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 31,
+      "location": [
+        -16.5,
+        8
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_SCORCH",
+      "width": 15
+    }
+  ],
+  "height": 34,
+  "hullId": "aic_fighter1",
+  "hullName": "Scorch Gunship",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 41.5,
+  "spriteName": "graphics/ships/drones/aic_fighter1.png",
+  "style": "AIC_MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -0,
+      "arc": 31,
+      "id": "WS0001",
+      "locations": [
+        5,
+        14
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 31,
+      "id": "WS0002",
+      "locations": [
+        5,
+        -13.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 59,
+      "arc": 212,
+      "id": "WS0005",
+      "locations": [
+        -1,
+        5.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -59,
+      "arc": 212,
+      "id": "WS0006",
+      "locations": [
+        -1,
+        -5.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 125.5,
+      "arc": 217,
+      "id": "WS0007",
+      "locations": [
+        -5,
+        16
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -125.5,
+      "arc": 217,
+      "id": "WS0008",
+      "locations": [
+        -5,
+        -16
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 31,
+      "id": "WS0003",
+      "locations": [
+        11.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 46
+}

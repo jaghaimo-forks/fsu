@@ -1,0 +1,57 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 22,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "aic_cruiser3",
+    "hullMods": [
+        "safetyoverrides",
+        "magazines",
+        "aic_himobility"
+    ],
+    "permaMods": [],
+    "variantId": "aic_cruiser3_so",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "autopulse",
+                "WS0008": "autopulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "typhoon",
+                "WS0014": "typhoon",
+                "WS0019": "typhoon",
+                "WS0020": "reaper",
+                "WS0021": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ioncannon",
+                "WS0002": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser"
+            }
+        }
+    ]
+}

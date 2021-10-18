@@ -1,0 +1,52 @@
+{
+  "beamEffect": "data.scripts.weapons.aic_pgsb_effect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    255, 77, 48,255
+  ],
+  "fringeColor": [
+    255, 77, 0,255
+  ],
+  "glowColor": [
+    255, 121, 100,255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/aic_pgsb_hardpoint_glow.png",
+  "hardpointOffsets": [
+    8,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/aic_pgsb_hardpoint.png",
+  "hitGlowRadius": 100,  
+  "id": "aic_pgsb",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "pixelsPerTexel": 5,
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "beam",
+  "textureScrollSpeed": 64,
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/aic_pgsb_turret_glow.png",
+  "turretOffsets": [
+    0.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/aic_pgsb_turret.png",
+  "type": "ENERGY",
+  "width": 15
+}

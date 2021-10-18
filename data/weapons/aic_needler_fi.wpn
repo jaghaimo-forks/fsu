@@ -1,0 +1,49 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "needler_fire_fi",
+  "frameRate": 30,
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/storm/flechette_storm_hardpoint_base00.png",
+  "id": "aic_needler_fi",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [
+      255,
+      255,
+      255,
+      175
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.2,
+    "particleSizeMin": 7,
+    "particleSizeRange": 7,
+    "spread": 10
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "numFrames": 4,
+  "projectileSpecId": "multineedler_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    7.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/storm/flechette_storm_turret_base00.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 2
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "aic_dess1",
+    "hullMods": [
+        "reinforcedhull",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "variantId": "aic_dess1_sup",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyac",
+                "WS0002": "heavyac",
+                "WS0003": "heavymortar",
+                "WS0004": "heavyac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "hammer",
+                "WS0012": "hammer",
+                "WS0013": "hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightmg",
+                "WS0006": "lightmg",
+                "WS0007": "lightmg",
+                "WS0008": "lightmg",
+                "WS0009": "lightmg",
+                "WS0010": "lightmg"
+            }
+        }
+    ]
+}

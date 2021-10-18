@@ -1,0 +1,26 @@
+{
+	"id":"aic_protdrive",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"scripts.shipsystems.aic_protdrive_stats",
+	
+	"weaponGlowColor":[255,30,0,155],
+	"weaponTypes":[BALLISTIC, ENERGY],
+	
+	"engineGlowColor":[176,0,53,255],
+	"engineGlowContrailColor":[138,0,53,50],
+	"engineGlowLengthMult":1.5,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":1.5,
+	
+	"useSound":"aic_protdrive_use",
+	"loopSound":"aic_protdrive_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":400,
+		"averageSpeedIncrease":30,
+	}
+}

@@ -1,0 +1,33 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 2,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "aic_frig3",
+    "hullMods": [
+        "missleracks",
+        "aic_lofirepower"
+    ],
+    "permaMods": [],
+    "variantId": "aic_frig3_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "railgun",
+                "WS0002": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "aic_spikem"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "lightdualmg"}
+        }
+    ]
+}

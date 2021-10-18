@@ -1,0 +1,4 @@
+id,name,faction,desc,script,icon,order
+aic_citadeldock,"Citadel 
+Dock
+Yards",aic,"Massive military hub that sells huge amounts of weapons and ships if you have the right connections.",scripts.campaign.submarkets.aic_citadeldock,graphics/factions/aic_dockyards.png,100

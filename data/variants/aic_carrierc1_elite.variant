@@ -1,0 +1,54 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "aic_carrierc1",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "aic_carrierc1_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymortar"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "aic_tremorm",
+                "WS0007": "aic_tremorm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "railgun",
+                "WS0005": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "flak",
+                "WS0012": "flak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "vulcan",
+                "WS0009": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "aic_fighter1_wing",
+        "aic_fighter1_wing",
+        "aic_fighter1_wing"
+    ]
+}

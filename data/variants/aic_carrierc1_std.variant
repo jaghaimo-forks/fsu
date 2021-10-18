@@ -1,0 +1,52 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 21,
+    "goalVariant": true,
+    "hullId": "aic_carrierc1",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "aic_carrierc1_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hveldriver"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "aic_cruisem",
+                "WS0007": "aic_cruisem"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "taclaser",
+                "WS0005": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "flak",
+                "WS0008": "lightmg",
+                "WS0009": "lightmg"
+            }
+        }
+    ],
+    "wings": [
+        "wasp_wing",
+        "aic_droned1_wing",
+        "aic_droned1_wing"
+    ]
+}

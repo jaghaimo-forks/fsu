@@ -1,0 +1,62 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 43,
+    "goalVariant": true,
+    "hullId": "aic_legionc",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "aic_legionc_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "aic_hook",
+                "WS 001": "aic_hook"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "aic_tremorm",
+                "WS 003": "aic_tremorm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "aic_scannon1"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "dualflak",
+                "WS 008": "vulcan",
+                "WS 009": "vulcan",
+                "WS 014": "vulcan",
+                "WS 015": "vulcan",
+                "WS 018": "vulcan",
+                "WS 019": "vulcan",
+                "WS 020": "vulcan",
+                "WS 021": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "aic_wardenac"}
+        }
+    ],
+    "wings": [
+        "aic_droned1_wing",
+        "aic_droned1_wing",
+        "wasp_wing",
+        "wasp_wing"
+    ]
+}

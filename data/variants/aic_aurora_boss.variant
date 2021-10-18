@@ -1,0 +1,55 @@
+{
+    "displayName": "Superior",
+    "fluxCapacitors": 10,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "aurora",
+    "hullMods": [
+        "missleracks",
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "aic_aurora_boss",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "sabotpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "reaper",
+                "WS 011": "reaper",
+                "WS 012": "reaper",
+                "WS 013": "reaper"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavyblaster",
+                "WS 008": "aic_hneutron"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "mininglaser",
+                "WS 002": "mininglaser",
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "mininglaser"
+            }
+        }
+    ]
+}

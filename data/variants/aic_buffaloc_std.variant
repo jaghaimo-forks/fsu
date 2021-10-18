@@ -1,0 +1,19 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "aic_buffaloc",
+    "hullMods": [
+        "unstable_injector",
+        "converted_hangar"
+    ],
+    "permaMods": [],
+    "variantId": "aic_buffaloc_std",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "pdlaser"}
+    }],
+    "wings": ["aic_droned3_wing"]
+}

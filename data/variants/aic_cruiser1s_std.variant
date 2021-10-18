@@ -1,0 +1,51 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "aic_cruiser1s",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "aic_cruiser1s_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "aic_annihilator_bi"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "aic_tremorm",
+                "WS0007": "aic_tremorm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0010": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "railgun",
+                "WS0005": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "flak",
+                "WS0008": "vulcan",
+                "WS0009": "vulcan",
+                "WS0012": "flak"
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+	"id":"aic_cruisel_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/aic_cruisel_shot.png",
+	"glowSprite":"graphics/missiles/aic_cruisel_shot_glow.png",
+	"glowColor":[255,210,60,255],
+	"size":[8,32],	
+	"center":[4,16],
+	"collisionRadius":40,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,105,75,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":200, # purely visual
+	"engineSpec":{
+				  "turnAcc":75,
+				  "turnRate":50,
+				  "acc":175,
+				  "dec":150},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-17, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,105,75,255],
+						"contrailDuration":3,
+						"contrailWidthMult":3,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.75, # how far away from engine it starts
+						"contrailColor":[94,92,85,150],
+						"glowSizeMult":1.5,
+						"glowAlternateColor":[255,128,0,255],
+						"type":"GLOW" # GLOW or SMOKE
+					},
+				    "width":9.0,
+				    "length":50.0,
+				    "angle":180.0}]
+}

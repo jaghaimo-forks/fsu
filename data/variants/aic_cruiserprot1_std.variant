@@ -1,0 +1,57 @@
+{
+    "displayName": "SERIAL 002",
+    "fluxCapacitors": 0,
+    "fluxVents": 29,
+	"goalVariant": true,
+    "hullId": "aic_cruiserprot1",
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "advancedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "aic_cruiserprot1_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "sabotpod",
+                "WS0005": "sabotpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "aic_hneutron",
+                "WS0003": "aic_hneutron"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ioncannon",
+                "WS0009": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "pdburst",
+                "WS0007": "pdburst",
+                "WS0010": "vulcan",
+                "WS0011": "vulcan",
+                "WS0012": "vulcan",
+                "WS0013": "vulcan"
+            }
+        }
+    ]
+}

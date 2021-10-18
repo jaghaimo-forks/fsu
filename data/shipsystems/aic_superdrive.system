@@ -1,0 +1,29 @@
+{
+	"id":"aic_superdrive",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.aic_superdriveStats",
+	
+	
+	"engineGlowColor":[255,229,227,255],
+	"engineGlowContrailColor":[184,0,0,25],
+	"engineGlowLengthMult":2.5,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0.0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":500,
+		"averageSpeedIncrease":100,
+	}
+}

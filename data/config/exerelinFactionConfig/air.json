@@ -1,0 +1,103 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "hostileToAll":2,
+    "pirateFaction":true,
+    "showIntelEvenIfDead":true,
+	"ngcTooltip":"Start as a mighty freedom fighter for the Revolution. Bring liberation to the sector and free the people from their shackles, Or die fighting for the greater good.",
+    
+    "rebelFleetSuffix":"Dissidents",
+    "responseFleetName":"Counter-Strike",
+    "defenceFleetName":"Defenders Of Freedom",
+
+    "difficultyString":"hard",
+    
+	"factionsLiked":[
+    		"tritachyon",
+			"persean",
+    		"pirates",
+			"aic",
+	], # String array
+    "factionsDisliked":[
+    		"luddic_path",
+    		"luddic_church",
+    		"hegemony",
+	], # String array
+    "startRelationships":{ 
+		"tritachyon":0.3, 
+		"hegemony":-0.6,
+		"luddic_path":-0.75,
+		"luddic_church":-0.75,
+		"independent":-0.6,
+		"persean":0.3,
+		"pirates":0.2,
+	},
+	"maxRelationships":{ 
+	"hegemony":-0.75,
+	"luddic_path":-0.75,
+	"luddic_church":-0.75,
+	"independent":-0.75,
+	
+	},
+	"diplomacyPositiveChance":{ 
+		"hegemony":0.3,
+		"luddic_church":0.2,
+		"tritachyon":1.2,
+		"persean":1.2,
+	},
+    "diplomacyNegativeChance":{ 
+		"hegemony":1.2,
+		"luddic_church":1.2,
+		"tritachyon":0.5,
+		"persean":0.5,
+	},
+    
+    "alignments":{
+        "technocratic":-0.25,
+		"corporate":-0.8,
+        "militarist":0.75,
+        "diplomatic":-1.0,
+        "ideological":1.0,
+    },
+	"diplomacyTraits":["selfrighteous", "paranoid", "stalwart", "anarchist", "irredentist"],
+
+	"morality":"evil",
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+	
+	"vengeanceLevelNames":["Seeker", "Hunter Killers", "Assassination"],
+    "vengeanceFleetNames":["Seeker", "Hunter Killers", "Assassination"],
+    "vengeanceFleetNamesSingle":["a Hunter Seeker", "a Hunter Killer Pack", "an Assassination Party"],
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":0,	# baseline expansion behaviour
+    
+    "startShipsSolo":[
+		["aic_frig1r_std"]
+	],
+    "startShipsCombatSmall":[
+		["aic_frig1r_std", "aic_dess1r_std"]
+    ],
+    "startShipsCombatLarge":[
+		["aic_cruiser1r_std", "aic_dess1r_std", "aic_frig1r_std"]
+    ],
+
+    "startSpecialItems":[
+		[["air_bp", ""]],
+		[["aic_wbp", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+    ],
+    
+	"industrySeeds":[
+        {"id":"orbitalworks", "mult":1},
+		{"id":"heavyindustry", "mult":1},
+		{"id":"highcommand", "mult":1},
+    ],
+	
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+    ],
+}

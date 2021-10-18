@@ -1,0 +1,68 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "aic_dplb_fireb",
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/aic_qplb_hardpoint_glow.png",
+  "hardpointOffsets": [
+    28.5,
+    11,
+    28.5,
+    5,
+    28.5,
+    -5,
+    28.5,
+    -11
+  ],
+  "hardpointSprite": "graphics/weapons/aic_qplb_hardpoint.png",
+  "id": "aic_qplb",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [255,147,100,255
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.12,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "spread": 5
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "aic_dplb_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/aic_qplb_turret_glow.png",
+  "turretOffsets": [
+    21,
+    11,
+    21,
+    5,
+    21,
+    -5,
+    21,
+    -11
+  ],
+  "turretSprite": "graphics/weapons/aic_qplb_turret.png",
+  "type": "ENERGY"
+}

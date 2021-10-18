@@ -1,0 +1,54 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 300,
+  "fireSoundTwo": "atropos_firet",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    14.5,
+    5,
+    14.5,
+    -5
+  ],
+  "hardpointSprite": "graphics/weapons/aic_spikem_hardpoint.png",
+  "id": "aic_spikem",
+  "projectileSpecId": "aic_spike1",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "MEDIUM",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretOffsets": [
+    9.5,
+    5,
+    9.5,
+    -5
+  ],
+  "turretSprite": "graphics/weapons/aic_spikem_turret.png",
+  "type": "MISSILE"
+}

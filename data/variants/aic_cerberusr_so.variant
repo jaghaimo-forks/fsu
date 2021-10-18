@@ -1,0 +1,29 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "aic_cerberusr",
+    "hullMods": [
+        "safetyoverrides",
+        "aic_lodurability"
+    ],
+    "permaMods": [],
+    "variantId": "aic_cerberusr_so",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "chaingun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg",
+                "WS 003": "lightdualmg"
+            }
+        }
+    ]
+}

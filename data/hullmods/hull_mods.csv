@@ -1,0 +1,58 @@
+"name","id","tier","rarity","tech/manufacturer","tags","uiTags","base value","unlocked","hidden","hiddenEverywhere","cost_frigate","cost_dest","cost_cruiser","cost_capital","script","desc","short","sprite"
+,,,,,,,,,,,,,,,,,,
+"Full Systems Overclock","aic_fso",2,,"Free Stars Union","special, engines, offensive","Special, Engines",5000,,,,0,0,0,40,"scripts.hullmods.aic_fso","A More sophisticated variation of Safety Overrides, fit for capital sized ships. increases the ship's top speed in combat by %s (with a corresponding increase in acceleration). The flux dissipation rate, including that of additional vents, is increased by a factor of %s.
+
+Does not affect 0-flux speed boost. Reduces the peak performance time by a factor of %s, prevents the use of active venting, and drastically reduces weapon ranges past %s units. Can %s be installed on capital size vessels.","Capital overdrive","graphics/hullmods/aic_fso.png"
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+"Massive Targeting Core","aic_mtc",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_mtc","Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s. %s the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.","Greatly extends non-missile weapon range.","graphics/hullmods/aic_mtc.png"
+"Union Frontline Hull Construction","aic_lotec",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_lotec","This ship is built by the Union for frontline duties. Reinforced weapon emplacements increase mount durability by %s. And special anti-spall construction reduces Fragmentation damage taken by hull & armor by %s. Allows the installation of special upgrade packages.","Union Low-Tech hull","graphics/hullmods/aic_lotec.png"
+"Union Advanced Engine Construction","aic_hitec",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_hitec","This ship is built by the Union with high mobility in mind. Advanced engine systems improve engine durability by %s, acceleration by %s and reduce fuel use by %s. Allows the installation of special upgrade packages.","Union High-Tech hull","graphics/hullmods/aic_hitec.png"
+"Superior Firepower Upgrade","aic_lofirepower",2,,"Free Stars Union","offensive","Weapons",4000,,,,4,8,12,18,"scripts.hullmods.aic_lofirepower","Installs a large modification package into the hull and underlying systems, heavy overclocked autoloaders, improved ballistic tracking computers and superior point defense systems are installed. These upgrades draw power from the ships engines limiting mobility. %s one upgrade can be installed at a time.
+
+Increases ballistic weapon range by %s.
+Increases ballistic & missile weapon rate of fire by %s.
+Increases damage to missiles & fighters by %s.
+
+Ship's speed reduced by %s and confers addional %s penalty in top speed.","Upgrades weapons","graphics/hullmods/aic_lofirepower.png"
+"Heavy Durability Upgrade","aic_lodurability",2,,"Free Stars Union","defensive","Defenses",4000,,,,4,8,12,18,"scripts.hullmods.aic_lodurability","Installs a large modification package into the hull and underlying systems, adding heavy reinforcements to critical systems, special anti-explosive armor plates and additional bulkheads to the ships structure. %s one upgrade can be installed at a time.
+
+Reduces high-explosive damage taken by armor & hull by %s.
+Reduces crew losses from damage taken in combat by %s.
+Increases weapon & engine durability by %s.
+Increases hull hp by %s.
+
+Reduces ship's maneuverability by %s.","Upgrades Durability","graphics/hullmods/aic_lodurability.png"
+"Lightweight Mobility Upgrade","aic_himobility",2,,"Free Stars Union","engines","Engines",4000,,,,4,8,12,18,"scripts.hullmods.aic_himobility","Installs a large modification package into the hull and underlying systems, removing safety limiters, excess armor, bulkheads and unnecessary failsafes - all in the name of improving ship's speed and maneuverabilty. %s one package can be installed at the same time.
+
+Increases ship's speed by %s and confers addional %s increase in top speed.
+Ship's maneuverability is increased by %s.
+
+Ship loses %s of its armor and hull integrity is reduced by %s.
+Ship loses %s of its peak performance time.","Upgrades Mobility","graphics/hullmods/aic_himobility.png"
+"Advanced Sensors Upgrade","aic_hitargeting",2,,"Free Stars Union","offensive","Weapons",4000,,,,4,8,12,18,"scripts.hullmods.aic_hitargeting","Installs a large modification package into the hull and underlying systems, extensively improving base targeting, sensor and tracking systems. High-tech sensors and systems make the ship more vulnerable to disruptions in combat and add some strain to the power core. %s one upgrade can be installed at a time.
+
+Increases hit strength for armor damage reduction by %s.
+Increases projectile velocity by %s.
+Increases missile tracking by %s.
+Increases sensor strength by %s.
+
+Ship loses %s flux capacity.
+Ship loses %s weapon & engine durability.
+Increases chance of malfunction by %s.","Upgrades Targeting","graphics/hullmods/aic_hitargeting.png"
+"Revolutionary Modifications","aic_rm",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_rm","This ship has been heavily modified by the Revolutionares. Which means it has no shields but all the freed up space, weight and power are used to install heavy upgrades. Active armor flux plating reduces all damage taken by %s/%s/%s/%s based on current flux level. Bonus is at its highest at %s Flux. The weight of all the installed modifications reduces maneuverability by  %s/%s/%s/%s. %s the installation of Makeshift Shield Generator. Allows the installation of special upgrade packages.","Disables shields. Improves performance","graphics/hullmods/aic_rm.png"
+"Flux Ammofeeders","aic_rm2",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_rm2","This ship is installed with large active ammofeeders that increase ballistic weapon rate of fire by %s based on flux level. Bonus is at its highest at %s Flux. Static flux fields interfere with fired projectiles causing projectile speed to get reduced by %s.","Disables shields. Improves performance","graphics/hullmods/aic_rm2.png"
+"Revolutionary Modifications (Station)","aic_rms",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_rms","This station has been heavily modified by the Revolutionares. Which means it has no shields but all the freed up space, weight and power are used to, Install active armor flux plating that Reduces all damage taken by %s/%s/%s/%s based on current flux level, And large active ammofeeders that increase ballistic weapon rate of fire by %s also based on flux level. Both bonuses are at their highest at %s Flux. Static flux fields interfere with fired projectiles causing projectile speed to get reduced by %s. PREVENTS the installation of Makeshift Shield Generator.","Disables shields. Improves performance","graphics/hullmods/aic_rm.png"
+"Light Ground Support Package","aic_ground_support",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_ground_support","Close support weapons and counter-measures for ground defenses. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet.","Improves effectiveness of raids.","graphics/hullmods/ground_support.png"
+"Luxurious Modifications","aic_lux",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_lux","This ship's interior is filled with marble statues of unknown figures, most showers were replaced with jacuzzis, around half of flat surfaces have been covered by gold and ship has other extravagant additions all over.
+
+All this indulgence massively increases monthly maintenance costs by %s, as everything has to be kept at best possible condition. At the same time, crew's morale is at its peak at all times, increasing maximum combat readiness by %s and its recovery rate by %s.","Increases maintenance cost.","graphics/hullmods/aic_lux.png"
+"Adaptive Shield Projector","aic_focused_shield",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_focused_shield","An Advanced kind of shield projector that gets more focused based on flux levels. Increases shield size by %s, this bonus gets smaller as flux levels increase down to %s. %s the installation of Extended Shields and Front Shield Conversion.","Changes shield size and efficiency depending on flux levels","graphics/hullmods/aic_focused_shield.png"
+"Hardening Shield Projector","aic_focused_shield2",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_focused_shield2","An Advanced kind of shield projector that gets more focused based on flux levels. Increases shield efficiency up to %s based on flux levels starting at %s at no flux.","Changes shield size and efficiency depending on flux levels","graphics/hullmods/aic_focused_shield2.png"
+"Lost Prototype","aic_lost_prot",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_lost_prot","This ship is of unknown origin with an extremely complex set of inner workings increasing monthly maintenance cost by %s. And does not stand up well under the rigours of prolonged engagements.
+
+Increases the rate of in-combat CR decay after peak performance time runs out by %s.","Increases monthly maintanance and CR decay rate after peak time runs out.","graphics/hullmods/aic_lost_prot.png"
+"Questionable Engineering","aic_qadvised",,,,"dmod",,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_qadvised","This hull's systems have been drastically modified from spec. While not as dangerous as some of the more ill-advised modifications in the sector, its systems still have small chance of critical malfunction when stressed.",,"graphics/hullmods/qadvised.png"
+,,,,,,,,,,,,,,,,,,
+"Union Weapons Training","aic_ccb",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.aic_ccb","Union Crews are trained to optimise their firing solutions to cram every bit of firepower out of their ships. Increases weapon flux efficiency by %s.","Increases weapon effiencency.","graphics/hullmods/aic_ccb.png"
+"Revolutionary Repairs Training","air_ccb",,,,,,,,"TRUE",,0,0,0,0,"scripts.hullmods.air_ccb","Revolution Crews are fanatically trained to optimise their ships durability without a shield emitter, and are masters of emergency repairs. Hull damage taken in combat is reduced by %s. Additionally campaign level repair speed is increased by %s.","Increases ship durability.","graphics/hullmods/air_ccb.png"

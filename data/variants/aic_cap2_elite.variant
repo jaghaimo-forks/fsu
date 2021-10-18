@@ -1,0 +1,64 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 47,
+    "hullId": "aic_cap2",
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "aic_cap2_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0021": "cyclone"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "aic_tremors",
+                "WS0006": "aic_tremors",
+                "WS0007": "aic_tremors",
+                "WS0008": "aic_tremors"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "autopulse",
+                "WS0020": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "gravitonbeam",
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam",
+                "WS0011": "taclaser",
+                "WS0012": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionpulser",
+                "WS0009": "pdburst",
+                "WS0010": "pdburst",
+                "WS0013": "pdburst",
+                "WS0014": "pdburst",
+                "WS0015": "mininglaser",
+                "WS0016": "mininglaser",
+                "WS0017": "mininglaser",
+                "WS0018": "mininglaser"
+            }
+        }
+    ]
+}

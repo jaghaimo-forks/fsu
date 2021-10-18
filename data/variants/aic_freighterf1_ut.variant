@@ -1,0 +1,34 @@
+{
+    "displayName": "Utility",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "aic_freighterf1",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "aic_freighterf1_ut",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "railgun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "swarmer",
+                "WS0006": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lrpdlaser",
+                "WS0002": "lrpdlaser",
+                "WS0003": "lrpdlaser"
+            }
+        }
+    ]
+}

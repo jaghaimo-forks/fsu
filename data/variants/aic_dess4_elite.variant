@@ -1,0 +1,48 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 6,
+    "fluxVents": 20,
+    "hullId": "aic_dess4",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "aic_lofirepower"
+    ],
+    "permaMods": [],
+    "variantId": "aic_dess4_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lightmortar",
+                "WS0008": "lightmortar"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "aic_tremors",
+                "WS0010": "aic_tremors"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightneedler",
+                "WS0002": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightmg",
+                "WS0004": "lightmg",
+                "WS0005": "lightmg",
+                "WS0006": "lightmg"
+            }
+        }
+    ]
+}

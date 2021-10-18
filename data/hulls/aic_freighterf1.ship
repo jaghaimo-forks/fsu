@@ -1,0 +1,214 @@
+{
+  "hullName": "Coydog",
+  "hullId": "aic_freighterf1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aic_freighterf1.png",
+  "style": "AIC_LOW_TECH",
+  "height": 124,
+  "width": 90,
+  "center": [45, 62.5],
+  "collisionRadius": 86,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0007": "aic_blinker",
+    "WS0008": "aic_blinker",
+    "WS0009": "aic_blinker",
+    "WS0010": "aic_blinker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": -90,
+      "locations": [-24.5, -20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": 90,
+      "locations": [-24.5, 20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -90,
+      "locations": [5.5, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 90,
+      "locations": [5.5, 28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [49.5, -25]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [49.5, 25]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-28, 2.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-28, -2.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2, -1.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, 1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-56, 21],
+      "length": 50,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-56, -21],
+      "length": 50,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-56, -30.5],
+      "length": 35,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-56, 30.5],
+      "length": 35,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH"
+    },
+    {
+      "location": [-55.5, -21],
+      "length": 12,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    },
+    {
+      "location": [-55.5, 21],
+      "length": 12,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    },
+    {
+      "location": [-55.5, 30.5],
+      "length": 10.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    },
+    {
+      "location": [-55.5, -30.5],
+      "length": 10.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH2"
+    }
+  ],
+  "bounds": [
+    52, -7,
+    49, -8,
+    53.5, -12.5,
+    54, -31,
+    45.5, -31,
+    42.5, -33,
+    -3.5, -34.5,
+    -9.5, -30.5,
+    -9.5, -34.5,
+    -20.5, -39,
+    -54.5, -34.5,
+    -55.5, -17,
+    -45.5, -8.5,
+    -45.5, 8.5,
+    -55.5, 17,
+    -54.5, 34.5,
+    -20.5, 39,
+    -9.5, 34.5,
+    -9.5, 30.5,
+    -3.5, 34.5,
+    42.5, 33,
+    45.5, 31,
+    54, 31,
+    53.5, 12.5,
+    49, 8,
+    52, 7
+  ]
+}

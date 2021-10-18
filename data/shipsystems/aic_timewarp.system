@@ -1,0 +1,25 @@
+{
+	"id":"aic_timewarp",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"scripts.shipsystems.aic_timewarpstats",
+	
+	"clampMaxSpeedAfter":true,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"aic_timewarp_activate",
+	"loopSound":"aic_timewarp_loop",
+	"deactivateSound":"aic_timewarp_out",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":500,
+		"averageSpeedIncrease":50,
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "heavy_mauler_fire_fi",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/assault_chaingun_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    9,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/assault_chaingun_hardpoint_base.png",
+  "id": "aic_mauler_fi",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.5,
+    "particleSizeMin": 12,
+    "particleSizeRange": 14,
+    "spread": 5
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "aic_mauler_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/assault_chaingun_turret_recoil.png",
+  "turretOffsets": [
+    4,
+    0
+  ],
+  "turretSprite": "graphics/weapons/assault_chaingun_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 7
+}

@@ -1,0 +1,28 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "aic_kiter",
+    "hullMods": [
+        "missleracks",
+        "aic_lodurability"
+    ],
+    "permaMods": [],
+    "variantId": "aic_kiter_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "railgun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "reaper",
+                "WS 002": "reaper"
+            }
+        }
+    ]
+}

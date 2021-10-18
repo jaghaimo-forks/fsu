@@ -1,0 +1,52 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "aic_carrierc1",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "variantId": "aic_carrierc1_sup",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "aic_scannon1"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "aic_spikem",
+                "WS0007": "aic_spikem"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "taclaser",
+                "WS0005": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "aic_wardenac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "vulcan",
+                "WS0009": "vulcan",
+                "WS0012": "flak"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "aic_bomber1_wing",
+        "aic_bomber1_wing"
+    ]
+}

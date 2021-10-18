@@ -1,0 +1,83 @@
+{
+  "bounds": [
+    -5,
+    8.5,
+    -5,
+    -8.5,
+    9,
+    -0
+  ],
+  "builtInWeapons": {
+
+  },
+  "center": [
+    9,
+    7.5
+  ],
+  "collisionRadius": 11,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 12,
+      "location": [
+        -6,
+        -2
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH",
+      "width": 2
+    },
+    {
+      "angle": -180,
+      "contrailSize": 2,
+      "length": 12,
+      "location": [
+        -6,
+        2
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH",
+      "width": 2
+    },
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 12,
+      "location": [
+        -7,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH",
+      "width": 2
+    }
+  ],
+  "height": 16,
+  "hullId": "aic_droned3",
+  "hullName": "Griffin",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 10.5,
+  "spriteName": "graphics/ships/drones/aic_droned3.png",
+  "style": "AIC_LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        2.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 18
+}

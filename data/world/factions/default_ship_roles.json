@@ -1,0 +1,298 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+	"aic_frig1_std":4,
+	"aic_frig1_sup":3,
+	"aic_frig1_so":3,
+	"aic_frig1_elite":2,
+	"aic_frig1r_std":6,
+	"aic_frig1r_so":3,
+	"aic_frig2_std":1,
+	"aic_frig2_sup":1,
+	"aic_frig2_so":1,
+	"aic_frig2_elite":1,
+	"aic_frig2r_std":3,
+	"aic_frig2r_so":3,
+	"aic_frig3_std":4,
+	"aic_frig3_sup":3,
+	"aic_frig3_so":3,
+	"aic_frig3_elite":2,
+	"aic_frig3r_std":6,
+	"aic_frig3r_so":3,
+	"aic_frig4_std":2,
+	"aic_frig4_sup":2,
+	"aic_frig4_so":1,	
+	"aic_frig4_elite":3,
+	"aic_frig5_std":3,
+	"aic_frig5_sup":2,
+	"aic_frig5_so":1,	
+	"aic_frig5_elite":2,
+	"aic_cerberusr_std":6,
+	"aic_cerberusr_so":3,
+	"aic_houndr_std":6,
+	"aic_houndr_so":3,
+	"aic_kiter_std":6,
+	"aic_kiter_so":3,
+	
+	},
+	"combatSmall":{
+	"aic_frig1_std":4,
+	"aic_frig1_sup":3,
+	"aic_frig1_so":3,
+	"aic_frig1_elite":2,
+	"aic_frig1r_std":6,
+	"aic_frig1r_so":3,
+	"aic_frig2_std":2,
+	"aic_frig2_sup":2,
+	"aic_frig2_so":2,
+	"aic_frig2_elite":1,
+	"aic_frig2r_std":3,
+	"aic_frig2r_so":3,
+	"aic_frig3_std":4,
+	"aic_frig3_sup":3,
+	"aic_frig3_so":3,
+	"aic_frig3_elite":2,
+	"aic_frig3r_std":6,
+	"aic_frig3r_so":3,	
+	"aic_frig4_std":3,
+	"aic_frig4_sup":3,
+	"aic_frig4_so":2,
+	"aic_frig4_elite":2,
+	"aic_frig5_std":5,
+	"aic_frig5_sup":4,
+	"aic_frig5_so":2,	
+	"aic_frig5_elite":3,
+	"aic_cerberusr_std":6,
+	"aic_cerberusr_so":3,
+	"aic_houndr_std":6,
+	"aic_houndr_so":3,
+	"aic_kiter_std":6,
+	"aic_kiter_so":3,
+	
+	},
+	"combatMedium":{
+	"aic_frigmk2_std":3,
+	"aic_frigmk2_sup":3,
+	"aic_frigmk2_so":2,
+	"aic_frigmk2_elite":2,
+	"aic_dess1_std":5,
+	"aic_dess1_sup":4,
+	"aic_dess1_so":1,
+	"aic_dess1_elite":3,
+	"aic_dess1r_std":6,
+	"aic_dess1r_so":3,
+	"aic_dess2_std":5,
+	"aic_dess2_sup":4,
+	"aic_dess2_so":2,
+	"aic_dess2_elite":3,
+	"aic_dess2r_std":6,
+	"aic_dess2r_so":3,
+	"aic_dess3_std":5,
+	"aic_dess3_sup":4,
+	"aic_dess3_so":1,
+	"aic_dess3_elite":3,
+	"aic_dess4_std":6,
+	"aic_dess4_sup":6,
+	"aic_dess4_so":1,
+	"aic_dess4_elite":5,
+	"aic_freighterd1r_std":4,
+	"aic_freighterd1r_so":2,
+	
+	},
+	"combatLarge":{
+	"aic_cruiser2_std":6,
+	"aic_cruiser2_sup":4,
+	"aic_cruiser2_so":1,
+	"aic_cruiser2_elite":4,
+	"aic_cruiser1s_std":8,
+	"aic_cruiser1s_sup":8,
+	"aic_cruiser1s_so":1,
+	"aic_cruiser1s_elite":8,
+	"aic_cruiser1_std":8,
+	"aic_cruiser1_sup":6,
+	"aic_cruiser1_so":1,
+	"aic_cruiser1_elite":4,
+	"aic_cruiser1r_std":6,
+	"aic_cruiser1r_so":3,
+	"aic_cruiser3_std":3,
+	"aic_cruiser3_sup":2,
+	"aic_cruiser3_so":1,
+	"aic_cruiser3_elite":2,
+	"aic_cruiser4_std":4,
+	"aic_cruiser4_sup":3,
+	"aic_cruiser4_so":1,
+	"aic_cruiser4_elite":2,
+	"aic_freighterc1r_std":9,
+	"aic_freighterc1r_so":3,
+	},
+	"combatCapital":{
+	"aic_cap1_std":12,
+	"aic_cap1_sup":9,
+	"aic_cap1_ult":7,
+	"aic_cap1_so":1,
+	"aic_cap1_elite":6,
+	"aic_cap2_std":6,
+	"aic_cap2_sup":4,
+	"aic_cap2_ult":3,
+	"aic_cap2_so":1,
+	"aic_cap2_elite":3,
+	"aic_legionc_std":16,
+	"aic_legionc_sup":12,
+	"aic_legionc_ult":10,
+	"aic_legionc_so":1,
+	"aic_legionc_elite":9,
+	
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	"aic_cerberusr_std":6,
+	"aic_cerberusr_so":6,
+	"aic_houndr_std":6,
+	"aic_houndr_so":6,
+	"aic_kiter_std":6,
+	"aic_kiter_so":6,
+	"aic_kitec_std":6,
+	"aic_freighterf1_std":5,
+	"aic_freighterf1_sup":3,
+	"aic_freighterf1_ut":3,
+	"aic_freighterf1_elite":1,
+	},
+	"combatFreighterMedium":{
+	"aic_buffalor_std":6,
+	"aic_freighterd1_std":5,
+	"aic_freighterd1_sup":3,
+	"aic_freighterd1_ut":3,
+	"aic_freighterd1_elite":1,
+	"aic_freighterd1r_std":6,
+	"aic_freighterd1r_so":2,
+	
+	},
+	"combatFreighterLarge":{
+	"aic_freighterc1_std":5,
+	"aic_freighterc1_sup":3,
+	"aic_freighterc1_ut":3,
+	"aic_freighterc1_elite":1,
+	"aic_freighterc1r_std":6,
+	"aic_freighterc1r_so":2,
+	},
+	
+	"civilianRandom":{
+
+	},
+
+	# carriers
+	"carrierSmall":{
+	"aic_carrierd1_std":10,
+	"aic_carrierd1_sup":8,
+	"aic_carrierd1_bomb":8,
+	"aic_carrierd1_elite":6,
+	
+	},
+	"carrierMedium":{
+	"aic_carrierd1_std":10,
+	"aic_carrierd1_sup":8,
+	"aic_carrierd1_bomb":8,
+	"aic_carrierd1_elite":6,
+	"aic_carrierc1_std":8,
+	"aic_carrierc1_sup":6,
+	"aic_carrierc1_so":1,
+	"aic_carrierc1_elite":4,
+	
+	},
+
+	"carrierLarge":{
+	"aic_legionc_std":12,
+	"aic_legionc_sup":9,
+	"aic_legionc_ult":7,
+	"aic_legionc_elite":6,
+	
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+	"aic_cerberusr_std":6,
+	"aic_cerberusr_so":6,
+	"aic_houndr_std":6,
+	"aic_houndr_so":6,
+	"aic_kiter_std":6,
+	"aic_kiter_so":6,	
+	"aic_kitec_std":2,
+	"aic_buffaloc_std":6,
+	"aic_buffalor_std":6,
+
+	},
+	"freighterMedium":{
+	"aic_buffaloc_std":6,
+	"aic_buffalor_std":6,
+	},
+	"freighterLarge":{
+	#"aic_colossusr_std":6,
+	"aic_colossusc_std":6,
+	},
+	
+	"tankerSmall":{
+	"aic_dramc_std":6,
+	"aic_dramr_std":6,
+	},
+	"tankerMedium":{
+	"aic_phaetonc_std":6,
+	"aic_phaetonr_std":6,
+	},
+	"tankerLarge":{
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+	},
+	
+	
+
+
+	# Old/unused below this line
+	"fastAttack":{
+	},
+
+	"escortSmall":{
+	},
+	"escortMedium":{
+	},
+	
+}

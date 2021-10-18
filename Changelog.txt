@@ -1,0 +1,126 @@
+V 1.2.0 rc2
+Balance changes:
+-Tremor damage reduced (again)
+
+V 1.2.0
+-Added the Falling Sun class battlecruiser
+-Added the Muninn Prototype
+-New HVB based on the Falling Sun
+-Union ships now have built in hullmods that allow the installation of upgrade packages
+-Hook MRM array now has a new on hit effect
+-Ships now have new paintjobs and patterns based on tech levels
+-Revolution now spawn a lot less fleets
+-Added Yakalo & Tigon (R)
+Balance changes:
+-Widow & Rhea increased to 9 burn
+-Chimera increased to 52dp/supplies month
+-Superheavy Slug driver accuracy increased
+-Heavy Nailgun Flux effiency, Rof and on hit dmg reduced
+-Adjusted the logistical stats of most ships slightly
+-Nova Cruise missile damage increased
+-Full systems overclock reduced speed boost, increased PPT reduction and now incompatible with some modded hullmods
+-Reality Splitter radius reduced slightly, but now also blows up missiles
+-Minokawa shield efficiency decreased
+-Scorch armor & top speed reduced slightly
+-Mega/heavy neuton particle cannon now burst fire faster, rof is increased, but total per shot damage & DPS reduced
+-Tremor MIRV rack/pod damage reduced 
+-Spike MRT array/launcher/pod now 20/9/4 OP, damage reduced, pod/launcher max ammo increased
+-Malediction max flux ,disspation, hull & armor increased slightly
+-Reduced Rapid Fire duration slightly
+-Reduced Revolutionary Mods damage reduction
+-Revolution Flux Ammofeeders now reduces projectile velocity
+-Widow shipsystem changed to Flares
+-Keres strom cannon base EMP reduced heavily. Flux effiency increased slightly to compensate
+-Heavy Annihilator Barrage Rof reduced
+
+V 1.1.0 rc3
+-Fixed a CTD
+-Fixed typos and grammar
+
+V 1.1.0 rc2
+-Fixed a CTD
+
+V 1.1.0
+-Added the Steelhead a reliable and affordable combat destroyer
+-Added the Coydog, Yakalo & Tigon class combat freighters, specializing in good combat support and raiding
+-Added The Minokawa a long lost enigma
+-Added the Heavy/Mega Neutron Particle Cannon a shor range high damage Frag blaster
+-Added the Warden Autocannon a specialized anti-fighter weapon
+-Added the Superheavy Slug Driver a high-end efficient long range cannon
+-Reworked Revolution Commissioned crews bonus
+-Redid most paint jobs
+-Improved a lot of visuals
+-Lots of small campaign level changes and fixes
+-FSU Weapons now have their own BP packcage
+-Target Painter can no longer be used on fighters, so it should be alot more useful
+-Slicer MK.II now has the correct spawnrate
+-Added Ind.Evo industries to some planets
+-Changed Revolution campaign colors to not look like HMI
+-Added Yakalo (R) & Tigon (R) class combat freighters to spice up Revolution fleets
+-Rebalanced Revolutionary modifications and split it into two hullmods for clarity
+-Revolution ships now have Questionable Engineering instead of IAM to give them more punch
+-Revolution now uses their own shieldless but heavily armed orbital stations
+-Revolution Doesn't spawn fleets if Hek doesn't exist or isn't owned by Revolution
+-Made Revolution fleets more rare and varied in size, but generally larger
+Balance changes:
+-Adjusted some ship base prices
+-Apocylapse buffed to 30dp/supplies month, MIRV mines now have 3 charges, increased burn speed to 8
+-Arbiter armor increased to 475
+-Nighthawk armor increased to 525, Added ARU to Dragonfish
+-Chimera shield efficiency reduced to 1.1
+-Full Systems Overclock now clamps range past 700
+-Widow Max flux and armor reduced slightly
+-Keres storm cannon OP cost reduced to (12/24) and reduced on hit emp slightly
+-Mini Nova Cruise Missile Launcher base ammo reduced to 10
+-Barghest SSMS reduced range to 1400 and rate of fire somewhat
+-Heavy Nailgun Reduced range to 700, effiency to 0.9 and reduced on-hit damage slightly
+-Hail Rocket Array burst size reduced to 32 and max ammo to 224
+-Spike MRT Array burst size reduced to 6 and max ammo to 30
+-Spike MRT launcher max ammo increased to 4
+-Pulsed Particle Surge Beam range increased to 800 & credit cost reduced
+-Rook main gun Dps Increased, and gave it a swarmer SRM (fighter)
+
+V 1.0.1 rc4
+-Fixed issue with HVBs not spawning
+
+V 1.0.1 rc3
+-Added the Sheartail Heavy frigate, A slippery midline style frigate with good staying power.
+-Now supports Version Checker
+-Added support for an upcoming Industrial.Evolution feature
+-Fixed typos
+-Improved sprite contrast & saturation on most ships.
+-Reworked Pulsed Graviton Surge Beam to Pulsed Particled Surge Beam. Is now a HIL/Paladin PD hybrid anti-fighter/anti-armor weapon. 
+-Improved MIRV minelayer counterplay, reduced range, slower recharge and missiles, but increased damage potential. (still can be a bit unfair, but thats Mines for you)
+-Full Systems Overclock now incompatible with SO (oops)
+-Fixed Revolution bases spawning without orbital stations
+-Rebalanced Rhinochimaera bounty (it's way more reasonable now)
+-Phaeton UN base price fixed
+-Civilian (UN) ships now are their own BP packcage
+-Added set Relations for Scalartech, First Persean Empire, PRV Starworks and Templars
+-Revolution fleets now use combat freighters properly and fixed basic shepherds from spawning
+-Changed missions around to accommodate balance changes
+-Adjusted default variants
+-Adjusted FP costs slightly
+Balance changes:
+-Buffed Tremor Pod Cooldown to 15s
+-Buffed Spike Launcher cooldown too 5s
+-Reduced Blackbird to 5dp/supplies month and increased max flux slightly
+-Increased shield upkeeps across the board
+-Reduced base dissipation across the board
+-Reduced Max Flux slightly on Widow, Twinblade, Rupture & Apocylapse
+-Reduced Nighthawk, Arbiter & Twinblade top speed slightly
+-Reduced Chimera base dissipation to 700 and max flux to 24 000, Adjusted weapon arcs to be less generous, Reduced maneuverability, Nerfed Rapier AODs, Increased shield efficiency to 1.0 and reduced to 50dp/supplies month to compensate.
+-Reduced Rupture hull & armor, Adjusted weapon arcs to be less generous, increased to 14dp/supplies month 
+-Reduced Arbiter base dissipation to 400 and changed to 20dp/supplies month 
+-Reduced Widow shield efficiency to 1.1 & is now 12dp/supplies month 
+-Increased Mercurial drive and overdrive cooldown
+-Reduced Assault mode duration to 6s, reduced cooldown to 20s
+-Reduced Barghest max ammo to 160
+-Increased Hook MRM cooldown to 20s & reduce Max ammo to 64
+-Reduced Pursuer HP & Armor
+-Reduced Rook damage output & health slightly
+-Reduced Thorn torpedo damage slightly
+-Lots of unlisted smaller adjustments
+
+V 1.0.0 rc2
+-Released

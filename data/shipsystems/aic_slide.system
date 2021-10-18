@@ -1,0 +1,31 @@
+{
+	"id":"aic_slide",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"scripts.shipsystems.aic_slidestats",
+	
+	"engineGlowColor":[165,103,207,125],
+	"engineGlowContrailColor":[95,80,160,25],
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":1.5,
+
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"aic_slide_activate",
+	"loopSound":"system_temporalshell_loop",
+	"deactivateSound":"system_temporalshell_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":500,
+		"averageSpeedIncrease":50,
+	}
+}

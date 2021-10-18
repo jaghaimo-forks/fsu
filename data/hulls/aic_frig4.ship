@@ -1,0 +1,374 @@
+{
+  "hullName": "Blackbird",
+  "hullId": "aic_frig4",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aic_frig4.png",
+  "style": "AIC_MIDLINE",
+  "height": 88,
+  "width": 100,
+  "center": [50, 41],
+  "collisionRadius": 82.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 81.5,
+  "viewOffset": 0,
+  "builtInMods": [
+	"aic_hitec",
+    "eccm",
+    "ecm"
+  ],
+  "builtInWeapons": {
+    "WS0005": "aic_blinker",
+    "WS0006": "aic_blinker",
+    "WS0007": "aic_blinker",
+    "WS0008": "aic_blinker",
+    "WS0009": "aic_blinker",
+    "WS0010": "aic_blinker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": 98.5,
+      "locations": [0, 27]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": -98.5,
+      "locations": [0, -27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 232,
+      "angle": 36,
+      "locations": [26, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 232,
+      "angle": -36,
+      "locations": [26, -19]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-20.5, -11.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-20.5, 11.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-18.5, 11.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-18.5, -11.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-16.5, 11.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-16.5, -11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41.5, -0],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-38.5, -7.5],
+      "length": 35,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-38.5, 7.5],
+      "length": 35,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-37.5, -10],
+      "length": 35,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-37.5, 10],
+      "length": 35,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-36.5, -13.5],
+      "length": 35,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-36.5, 13.5],
+      "length": 35,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-35.5, -16.5],
+      "length": 35,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-35.5, 16.5],
+      "length": 35,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-34.5, -20],
+      "length": 35,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-34.5, 20],
+      "length": 35,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-34, -20],
+      "length": 6.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-34, 20],
+      "length": 6.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-39.5, -26],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-39.5, 26],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB"
+    },
+    {
+      "location": [-35, -16.5],
+      "length": 6.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-35, 16.5],
+      "length": 6.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-36, -13.5],
+      "length": 6.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-36, 13.5],
+      "length": 6.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-37, -10],
+      "length": 6.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-37, 10],
+      "length": 6.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-38, -7.5],
+      "length": 6.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-38, 7.5],
+      "length": 6.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-39, -26],
+      "length": 7,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-39, 26],
+      "length": 7,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    },
+    {
+      "location": [-41, -0],
+      "length": 7,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHB2"
+    }
+  ],
+  "bounds": [
+    41.5, 4,
+    40, 26,
+    21, 40,
+    -9, 42,
+    -38.5, 31.5,
+    -38, 20.5,
+    -33.5, 20,
+    -40, 5,
+    -40, -5,
+    -33.5, -20,
+    -38, -20.5,
+    -38.5, -31.5,
+    -9, -42,
+    21, -40,
+    40, -26,
+    41, -4,
+    32, -0
+  ]
+}

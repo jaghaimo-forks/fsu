@@ -1,0 +1,34 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 8,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "aic_frig4",
+    "hullMods": [
+        "safetyoverrides",
+        "hardenedshieldemitter",
+        "aic_himobility"
+    ],
+    "permaMods": [],
+    "variantId": "aic_frig4_so",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "reaper",
+                "WS0004": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "mininglaser"}
+        }
+    ]
+}

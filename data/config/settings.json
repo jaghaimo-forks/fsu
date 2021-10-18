@@ -1,0 +1,39 @@
+{
+	
+	"designTypeColors":{
+            "Free Stars Union":[160,0,55,255],
+			"Free Stars Revolution":[194,103,103,255],
+			"Unique":[52,209,123,255],
+			"Prototype":[130, 116, 237,255],
+			
+    },
+
+
+	"graphics":{
+		"blueprint_packages":{
+			"aic_bp":"graphics/icons/cargo/aic_bp.png",
+			"aic_abp":"graphics/icons/cargo/aic_abp.png",
+			"aic_wbp":"graphics/icons/cargo/aic_wbp.png",
+			"aic_unbp":"graphics/icons/cargo/aic_unbp.png",
+			"air_bp":"graphics/icons/cargo/air_bp.png",
+			
+		},
+		
+		"illustrations":{
+		"aic_eventide":"graphics/illustrations/aic_eventide.jpg",
+		"aic_vacuum_colony":"graphics/illustrations/aic_vacuum_colony.jpg",
+		"aic_urban01":"graphics/illustrations/aic_urban01.jpg",
+		"aic_corporate_lobby":"graphics/illustrations/aic_corporate_lobby.jpg",
+		"aic_industrial_megafacility":"graphics/illustrations/aic_industrial_megafacility.jpg",
+		"aic_luddic_church":"graphics/illustrations/aic_luddic_church.jpg",
+		"aic_mine":"graphics/illustrations/aic_mine.jpg",
+		"aic_raid_preparation":"graphics/illustrations/aic_raid_preparation.jpg",
+		"aic_raid_plunder":"graphics/illustrations/aic_raid_plunder.jpg",
+		},
+		
+		"portraits":{
+			"aic_trosky":"graphics/portraits/aic_trosky.png",			
+		},
+
+	},
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 12,
+    "fluxVents": 4,
+    "hullId": "aic_dess4",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "aic_dess4_so",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lightag",
+                "WS0008": "lightag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "reaper",
+                "WS0010": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightdualmg",
+                "WS0002": "lightdualmg",
+                "WS0003": "lightdualmg",
+                "WS0004": "lightdualmg",
+                "WS0005": "lightdualmg",
+                "WS0006": "lightdualmg"
+            }
+        }
+    ]
+}

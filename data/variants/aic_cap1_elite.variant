@@ -1,0 +1,71 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "aic_cap1",
+    "hullMods": [
+        "missleracks",
+        "fluxdistributor",
+        "targetingunit",
+        "armoredweapons",
+        "aic_lodurability"
+    ],
+    "permaMods": [],
+    "variantId": "aic_cap1_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "hellbore"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "squall",
+                "WS0005": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "hellbore",
+                "WS0009": "aic_superd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "lightmortar",
+                "WS0007": "lightmortar",
+                "WS0010": "lightmortar",
+                "WS0011": "lightmortar",
+                "WS0020": "heavyneedler",
+                "WS0021": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vulcan",
+                "WS0003": "vulcan",
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan",
+                "WS0016": "flak",
+                "WS0017": "flak",
+                "WS0018": "vulcan",
+                "WS0019": "vulcan",
+                "WS0022": "flak",
+                "WS0023": "flak",
+                "WS0024": "aic_dcannon",
+                "WS0025": "aic_dcannon"
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "aic_wardenac",
+  "specClass": "projectile",
+  "projectileSpecId": "aic_wardenac_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 400,
+  "turretSprite": "graphics/weapons/aic_wardenac_turret.png",
+  "turretGunSprite": "graphics/weapons/aic_wardenac_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/aic_wardenac_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/aic_wardenac_hardpoint_recoil.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    10,
+    6,
+    9,
+    3,
+    11,
+    0,
+    8,
+    -3,
+    12,
+    -6
+  ],
+  "turretAngleOffsets": [
+    2,
+    -2.5,
+    2,
+    0.5,
+    1.5
+  ],
+  "hardpointOffsets": [
+    12,
+    6,
+    11,
+    3,
+    13,
+    0,
+    10,
+    -3,
+    14,
+    -6
+  ],
+  "hardpointAngleOffsets": [
+    2,
+    -2.5,
+    2,
+    0.5,
+    1.5
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 15,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 36,
+    "particleColor": [
+      235,
+      119,
+      66,
+      245
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "aic_wardenac_fire"
+}

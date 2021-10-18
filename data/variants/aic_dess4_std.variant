@@ -1,0 +1,48 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "hullId": "aic_dess4",
+    "hullMods": [
+        "fluxdistributor",
+        "aic_lodurability"
+    ],
+    "permaMods": [],
+    "variantId": "aic_dess4_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightag",
+                "WS0008": "lightag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "reaper",
+                "WS0010": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "railgun",
+                "WS0007": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightmg",
+                "WS0004": "lightmg",
+                "WS0005": "lightmg",
+                "WS0006": "lightmg"
+            }
+        }
+    ]
+}

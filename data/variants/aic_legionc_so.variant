@@ -1,0 +1,60 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "aic_legionc",
+    "hullMods": [
+        "missleracks",
+        "aic_fso"
+    ],
+    "permaMods": [],
+    "variantId": "aic_legionc_so",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "aic_hook",
+                "WS 001": "aic_hook"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "aic_wardenac",
+                "WS 003": "aic_wardenac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "aic_nailgun",
+                "WS 007": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavymg",
+                "WS 008": "lightmg",
+                "WS 009": "lightmg",
+                "WS 014": "lightmg",
+                "WS 015": "lightmg",
+                "WS 018": "lightmg",
+                "WS 019": "lightmg",
+                "WS 020": "lightmg",
+                "WS 021": "lightmg"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing",
+        "aic_bomber1_wing",
+        "aic_bomber1_wing"
+    ]
+}

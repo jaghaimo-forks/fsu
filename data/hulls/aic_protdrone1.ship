@@ -1,0 +1,150 @@
+{
+  "hullName": "Garde",
+  "hullId": "aic_protdrone1",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/aic_protdrone1.png",
+  "style": "AIC_PROT",
+  "height": 40,
+  "width": 36,
+  "center": [18, 20],
+  "collisionRadius": 36.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 36,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "aic_focused_shield",
+    "aic_focused_shield2",
+	"pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [8, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 190,
+      "angle": 90,
+      "locations": [-4, 9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 190,
+      "angle": -90,
+      "locations": [-4, -9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [3, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [3, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, -10],
+      "length": 27.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHP"
+    },
+    {
+      "location": [-16.5, 10],
+      "length": 27.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHP"
+    },
+    {
+      "location": [-14.5, -6],
+      "length": 27.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHP"
+    },
+    {
+      "location": [-14.5, 6],
+      "length": 27.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHP"
+    },
+    {
+      "location": [-14, -6],
+      "length": 5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHP2"
+    },
+    {
+      "location": [-14, 6],
+      "length": 5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHP2"
+    },
+    {
+      "location": [-16, -10],
+      "length": 5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHP2"
+    },
+    {
+      "location": [-16, 10],
+      "length": 5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "AIC_TECHP2"
+    }
+  ],
+  "bounds": [
+    2, 17.5,
+    -16, 13.5,
+    -10.5, 4,
+    -10.5, -4,
+    -16, -13.5,
+    2, -17.5,
+    10, -0
+  ]
+}

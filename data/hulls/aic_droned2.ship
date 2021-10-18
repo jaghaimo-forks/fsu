@@ -1,0 +1,109 @@
+{
+  "bounds": [
+    2.5,
+    10,
+    -13.5,
+    -0,
+    2.5,
+    -10,
+    12,
+    -0
+  ],
+  "builtInWeapons": {
+
+  },
+  "center": [
+    13,
+    15
+  ],
+  "collisionRadius": 16.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 27,
+      "location": [
+        -12,
+        -4
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_EXEC",
+      "width": 13
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 27,
+      "location": [
+        -12,
+        4
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_EXEC",
+      "width": 13
+    }
+  ],
+  "height": 30,
+  "hullId": "aic_droned2",
+  "hullName": "Executioner",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 20,
+  "spriteName": "graphics/ships/drones/aic_droned2.png",
+  "style": "AIC_MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 23,
+      "id": "WS0001",
+      "locations": [
+        1,
+        -7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 23,
+      "id": "WS0002",
+      "locations": [
+        1,
+        7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 37,
+      "id": "WS0003",
+      "locations": [
+        7,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0004",
+      "locations": [
+        -3,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 26
+}

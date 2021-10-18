@@ -1,0 +1,17 @@
+{
+	"id":"aic_wardenac_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":30.0,
+	"hitGlowRadius":30,
+	"onHitEffect":"scripts.weapons.aic_wardenac_oh",
+	"width":6.0,
+	"fadeTime":0.3,
+	"fringeColor":[255, 138, 70,235],
+	"coreColor":[255, 250, 200,180],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large_yellow.png"
+}

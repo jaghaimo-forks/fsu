@@ -1,0 +1,8 @@
+"id","name","cost mult","build time","income","upkeep","downgrade","upgrade","tags","data","image","plugin","desc","order"
+"aic_orbitalstationr","Orbital Station (R)",50,60,,3,,,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:aic_station1r_std,
+fleetName:Orbital Station,
+}","graphics/icons/industry/orbital_station.png","scripts.campaign.econ.industries.aic_orbitalStationChecker","A modified low-tech space station, featuring heavy armor and medium firepower.
+
+Must be reduced before invasions or bombardment can be attempted.",2010

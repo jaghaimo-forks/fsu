@@ -1,0 +1,65 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "annihilator_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    16,
+    12,
+    16,
+    4,
+    16,
+    -4,
+    16,
+    -12
+  ],
+  "hardpointSprite": "graphics/weapons/aic_annihilator_bi.png",
+  "id": "aic_annihilator_bi",
+  "projectileSpecId": "annihilator_rocket",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "LARGE",
+  "smokeSpec": {
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 6,
+    "cloudDuration": 1.5,
+    "cloudParticleCount": 3,
+    "cloudRadius": 12,
+    "particleColor": [
+      61,
+      58,
+      56,
+      95
+    ],
+    "particleSizeMin": 10,
+    "particleSizeRange": 14
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    3.5,
+    12,
+    3.5,
+    4,
+    3.5,
+    -4,
+    3.5,
+    -12
+  ],
+  "turretSprite": "graphics/weapons/aic_annihilator_bi.png",
+  "type": "MISSILE"
+}

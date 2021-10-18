@@ -1,0 +1,60 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "aic_minireaper_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    12,
+    7,
+    12,
+    0,
+    12,
+    -7
+  ],
+  "hardpointSprite": "graphics/weapons/aic_minireaper.png",
+  "id": "aic_minireaper",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "aic_minireapertorp",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "MEDIUM",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackParticleCount": 4,
+    "blowbackSpread": 15,
+    "cloudDuration": 1.5,
+    "cloudParticleCount": 6,
+    "cloudRadius": 10,
+    "particleColor": [
+      125,32,25,105
+    ],
+    "particleSizeMin": 12,
+    "particleSizeRange": 12
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    4.5,
+    7,
+    4.5,
+    0,
+    4.5,
+    -7
+  ],
+  "turretSprite": "graphics/weapons/aic_minireaper.png",
+  "type": "MISSILE"
+}

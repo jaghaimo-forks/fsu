@@ -1,0 +1,29 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 1,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "aic_frig3",
+    "hullMods": [
+        "missleracks",
+        "safetyoverrides"
+    ],
+    "permaMods": [],
+    "variantId": "aic_frig3_so",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightmg",
+                "WS0002": "lightmg",
+                "WS0003": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "sabotpod"}
+        }
+    ]
+}

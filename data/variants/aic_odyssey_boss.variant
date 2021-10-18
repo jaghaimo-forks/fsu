@@ -1,0 +1,66 @@
+{
+    "displayName": "Superior",
+    "fluxCapacitors": 0,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "odyssey",
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "aic_odyssey_boss",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "locust"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "sabotpod",
+                "WS 005": "sabotpod",
+                "WS 006": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "autopulse",
+                "WS 003": "tachyonlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "taclaser",
+                "WS 009": "taclaser",
+                "WS 011": "taclaser",
+                "WS 014": "taclaser",
+                "WS 016": "taclaser",
+                "WS 018": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 017": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "xyphos_wing",
+        "xyphos_wing"
+    ]
+}

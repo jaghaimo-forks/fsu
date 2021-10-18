@@ -1,0 +1,34 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "aic_carrierd1",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "variantId": "aic_carrierd1_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavyburst"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "aic_cruisem"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "hoplon_wing",
+        "broadsword_wing"
+    ]
+}

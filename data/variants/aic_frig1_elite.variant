@@ -1,0 +1,32 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 3,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "aic_frig1",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "variantId": "aic_frig1_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymortar"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "aic_tremors",
+                "WS0004": "aic_tremors",
+                "WS0005": "aic_tremors",
+                "WS0006": "aic_tremors"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "lightneedler"}
+        }
+    ]
+}

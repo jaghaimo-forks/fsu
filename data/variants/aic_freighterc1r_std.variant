@@ -1,0 +1,41 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+	"goalVariant": true,
+    "hullId": "aic_freighterc1r",
+    "hullMods": [
+        "missleracks",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "variantId": "aic_freighterc1r_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "annihilatorpod",
+                "WS0003": "annihilatorpod",
+                "WS0004": "annihilator",
+                "WS0005": "annihilator",
+                "WS0008": "annihilator",
+                "WS0009": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyac",
+                "WS0006": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "dualflak"}
+        }
+    ],
+    "wings": ["hoplon_wing"]
+}

@@ -1,0 +1,65 @@
+{
+    "displayName": "Ultimate",
+    "fluxCapacitors": 0,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "aic_legionc",
+    "hullMods": [
+        "missleracks",
+        "targetingunit",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "variantId": "aic_legionc_ult",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "aic_hook",
+                "WS 001": "aic_hook"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "sabotpod",
+                "WS 003": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "hveldriver",
+                "WS 007": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightmg",
+                "WS 009": "lightmg",
+                "WS 014": "lightmg",
+                "WS 015": "lightmg",
+                "WS 018": "lightmg",
+                "WS 019": "lightmg",
+                "WS 020": "lightmg",
+                "WS 021": "lightmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "dualflak"}
+        }
+    ],
+    "wings": [
+        "hoplon_wing",
+        "hoplon_wing",
+        "hoplon_wing",
+        "hoplon_wing"
+    ]
+}

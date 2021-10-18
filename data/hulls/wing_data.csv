@@ -1,0 +1,10 @@
+"id","variant","tags","tier","rarity","fleet pts","op cost","formation","range","attackRunRange","attackPositionOffset","num","role","role desc","refit","base value",,,,,,,,,,,,,"number"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"aic_droned1_wing","aic_droned1_variant","interceptor8, fighter, high, aic_abp, rare_bp",2,,0,16,"BOX",4000,200,500,2,"INTERCEPTOR","Interceptor Drone",25,9000,,,,,,,,,,,,,
+"aic_droned3_wing","aic_droned3_variant","fighter1, fighter, low, aic_bp",1,,0,0,"V",3000,500,0,6,"FIGHTER","Drone",3,1750,,,,,,,,,,,,,
+"aic_bomber1_wing","aic_bomber1_variant","bomber3, bomber, low, aic_bp",2,,0,15,"CLAW",4000,2000,600,3,"BOMBER","Bomber",15,7000,,,,,,,,,,,,,
+"aic_fighter1_wing","aic_fighter1_variant","fighter4, fighter, high, aic_abp, rare_bp",3,,0,18,"V",5000,500,0,1,"FIGHTER","Gunship",30,10000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"aic_droned2_wing","aic_droned2_variant","no_drop, no_sell,",,,0,0,"BOX",800,200,0,2,"FIGHTER","Drone",20,,,,,,,,,,,,,,
+"aic_fighter2_wing","aic_fighter2_variant","no_drop, no_sell,",,,0,0,"V",1000,500,0,1,"FIGHTER","Fighter",25,,,,,,,,,,,,,,
+"aic_protdrone1_wing","aic_protdrone1_variant","no_drop, no_sell,",,,0,0,"BOX",750,500,0,1,"SUPPORT","Support Drone",22,,,,,,,,,,,,,,

@@ -1,0 +1,51 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "aic_legionc",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "aic_legionc_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "heavyneedler",
+                "WS 007": "heavyneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "aic_hook",
+                "WS 001": "aic_hook"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "dualflak",
+                "WS 003": "dualflak",
+                "WS 005": "dualflak",
+                "WS 008": "vulcan",
+                "WS 009": "vulcan",
+                "WS 014": "vulcan",
+                "WS 015": "vulcan",
+                "WS 018": "vulcan",
+                "WS 019": "vulcan",
+                "WS 020": "vulcan",
+                "WS 021": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "aic_droned1_wing",
+        "aic_droned1_wing",
+        "aic_bomber1_wing",
+        "aic_bomber1_wing"
+    ]
+}

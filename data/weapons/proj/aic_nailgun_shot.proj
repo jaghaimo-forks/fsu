@@ -1,0 +1,17 @@
+{
+	"id":"aic_nailgun_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"scripts.weapons.aic_nailgun_oh",
+	"length":50.0,
+	"hitGlowRadius":42,
+	"width":6.0,
+	"fadeTime":0.175,
+	"fringeColor":[255,122,122,255],
+	"coreColor":[207,207,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"
+}

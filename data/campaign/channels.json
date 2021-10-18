@@ -1,0 +1,36 @@
+{
+	"defaultChannels":[
+		"aic_public",
+		"air_public",
+	],	
+	"aic_internal":{
+		"name":"Free Stars Union Inelligence",
+		"logo":"graphics/icons/intel/aic_internal.png",
+		"icon":"graphics/icons/intel/aic_internal.png",
+		"image":"graphics/factions/aic_crest.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"aic",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+	"aic_public":{
+		"name":"Free Stars Union Broadcast",
+		"logo":"graphics/icons/intel/aic_public.png",
+		"icon":"graphics/icons/intel/aic_public.png",
+		"image":"graphics/factions/aic_crest.png",
+		"sound":"ui_channel_news",
+		"faction":"aic",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"air_public":{
+		"name":"Free Stars Revolution Broadcast",
+		"logo":"graphics/icons/intel/aic_public.png",
+		"icon":"graphics/icons/intel/aic_public.png",
+		"image":"graphics/factions/aic_crest.png",
+		"sound":"ui_channel_news",
+		"faction":"air",
+		"type":"News Report",
+		"shortType":"News",
+	},
+}

@@ -1,0 +1,47 @@
+{
+    "displayName": "Utility",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "aic_freighterc1",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "variantId": "aic_freighterc1_ut",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "aic_ssms",
+                "WS0003": "aic_ssms"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "heatseeker",
+                "WS0005": "heatseeker",
+                "WS0008": "heatseeker",
+                "WS0009": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "flak",
+                "WS0007": "flak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "aic_wardenac"}
+        }
+    ],
+    "wings": ["wasp_wing"]
+}

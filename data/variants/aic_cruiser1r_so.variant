@@ -1,0 +1,45 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "aic_cruiser1r",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "aic_cruiser1r_so",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "aic_annihilator_bi"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "aic_tremorm",
+                "WS0007": "aic_tremorm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "aic_nailgun",
+                "WS0010": "aic_nailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "heavymg",
+                "WS0004": "lightdualmg",
+                "WS0005": "lightdualmg",
+                "WS0008": "lightmg",
+                "WS0009": "lightmg",
+                "WS0012": "heavymg"
+            }
+        }
+    ]
+}

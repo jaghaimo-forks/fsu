@@ -1,0 +1,14 @@
+"trail","projectile","sprite","minLength","fadeIn","duration","fadeOut","sizeIn","sizeOut","colorIn","colorOut","opacity","textLength","textScroll","distance","dispersion","drift","fadeOnFadeOut","angleAdjustment","additive","velocityIn","velocityOut","randomVelocity","angle","rotationIn","rotationOut","randomRotation","renderBelowExplosions"
+"aic_nailgun_shot","aic_nailgun_shot","base_trail_heavySmoke",16,"0.05","0.06","0.2",14,10,"[161,70,50]","[161,70,50]","0.6",128,500,10,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+"aic_dplb_shot","aic_dplb_shot","base_trail_weave",12,"0.05","0.03","0.1",8,5,"[255,182,36]","[255,182,36]","0.8",128,500,5,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+"aic_scannon_shot","aic_scannon_shot","base_trail_zapWithCore",20,"0.05","0.03","0.05",7,4,"[97,147,255]","[97,147,255]","0.6",128,500,5,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+"aic_hneutron_shot","aic_hneutron_shot","base_trail_aura",14,"0.05","0.09","0.15",35,15,"[161,118,50]","[152,161,50]","0.9",128,500,10,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+"aic_wardenac_shot","aic_wardenac_shot","base_trail_rough",12,"0.05","0.05","0.1",8,4,"[69,48,44]","[69,48,44]","0.5",128,500,5,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+"aic_superd_shot","aic_superd_shot","base_trail_smooth",18,"0.05","0.10","0.14",18,12,"[0,213,237]","[232,250,252]","1.0",128,500,10,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"aic_dcannon_shot","aic_dcannon_shot","base_trail_heavyBurn",18,"0.05","0.1","0.2",18,12,"[237,147,0]","[237,147,0]","1.0",128,500,10,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"aic_heavyblaster_shot","aic_heavyblaster_shot","base_trail_smooth",15,"0.05","0.05","0.2",12,8,"[36,36,255]","[36,36,255]","0.8",128,500,10,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+"aic_mauler_shot","aic_mauler_shot","base_trail_smoke",12,"0.05","0.04","0.15",10,8,"[69,63,44]","[69,63,44]","0.6",128,500,5,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+"aic_lightag_shot","aic_lightag_shot","base_trail_rough",12,"0.05","0.02","0.1",6,4,"[69,48,44]","[69,48,44]","0.5",128,500,5,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"
+"aic_superdfi_shot","aic_superdfi_shot","base_trail_smoke",12,"0.05","0.07","0.07",10,6,"[128,100,255]","[128,100,255]","1.0",128,500,10,0,1,"TRUE","FALSE","TRUE",0,0,"0.2",0,0,0,"TRUE","FALSE"

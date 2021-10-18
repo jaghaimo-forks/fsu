@@ -1,0 +1,25 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "aic_houndr",
+    "hullMods": [
+        "safetyoverrides",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "variantId": "aic_houndr_so",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "chaingun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightdualmg"}
+        }
+    ]
+}

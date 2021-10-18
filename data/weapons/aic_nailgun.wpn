@@ -1,0 +1,58 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+  "fireSoundTwo": "aic_nailgun_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/aic_nailgun_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    28.5,
+    3,
+    28.5,
+    -3
+  ],
+  "hardpointSprite": "graphics/weapons/aic_nailgun_hardpoint.png",
+  "id": "aic_nailgun",
+  "muzzleFlashSpec": {
+    "length": 25,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ],
+    "particleCount": 15,
+    "particleDuration": 0.75,
+    "particleSizeMin": 4,
+    "particleSizeRange": 14,
+    "spread": 25
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "aic_nailgun_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/aic_nailgun_turret_recoil.png",
+  "turretOffsets": [
+    23.5,
+    3,
+    23.5,
+    -3
+  ],
+  "turretSprite": "graphics/weapons/aic_nailgun_turret.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 5
+}

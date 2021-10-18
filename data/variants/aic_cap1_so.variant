@@ -1,0 +1,71 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "aic_cap1",
+    "hullMods": [
+        "aic_fso",
+        "missleracks",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "aic_cap1_so",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "hellbore",
+                "WS0008": "mjolnir",
+                "WS0009": "mjolnir"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "aic_hail",
+                "WS0005": "aic_hail"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "hveldriver",
+                "WS0017": "hveldriver",
+                "WS0022": "hveldriver",
+                "WS0023": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightmortar",
+                "WS0003": "lightmortar",
+                "WS0018": "lightmortar",
+                "WS0019": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "lightmg",
+                "WS0007": "lightmg",
+                "WS0010": "lightmg",
+                "WS0011": "lightmg",
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan",
+                "WS0020": "dualflak",
+                "WS0021": "dualflak",
+                "WS0024": "aic_dcannon",
+                "WS0025": "aic_dcannon"
+            }
+        }
+    ]
+}

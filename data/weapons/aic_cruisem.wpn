@@ -1,0 +1,51 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "LINKED",
+  "fireSoundTwo": "aic_cruisel_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    19.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/aic_cruisem_hardpoint.png",
+  "id": "aic_cruisem",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "aic_cruisel_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "MEDIUM",
+  "smokeSpec": {
+    "blowbackDuration": 4,
+    "blowbackLength": 40,
+    "blowbackParticleCount": 6,
+    "blowbackSpread": 20,
+    "cloudDuration": 2,
+    "cloudParticleCount": 6,
+    "cloudRadius": 20,
+    "particleColor": [
+      77,
+      73,
+      66,
+      200
+    ],
+    "particleSizeMin": 30,
+    "particleSizeRange": 30
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    11.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/aic_cruisem_turret.png",
+  "type": "MISSILE"
+}

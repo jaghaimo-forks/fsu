@@ -1,0 +1,91 @@
+{
+  "bounds": [
+    6,
+    18,
+    -13,
+    17,
+    -13,
+    -17,
+    6,
+    -18,
+    18,
+    -7,
+    10,
+    -0,
+    18,
+    7
+  ],
+  "builtInWeapons": {
+
+  },
+  "center": [
+    19,
+    14
+  ],
+  "collisionRadius": 25.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 26,
+      "location": [
+        -12.5,
+        -7.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 26,
+      "location": [
+        -12.5,
+        7.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "AIC_TECH",
+      "width": 10
+    }
+  ],
+  "height": 33,
+  "hullId": "aic_bomber1",
+  "hullName": "Scourge",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 24,
+  "spriteName": "graphics/ships/drones/aic_bomber1.png",
+  "style": "AIC_MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        4,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        1,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 38
+}

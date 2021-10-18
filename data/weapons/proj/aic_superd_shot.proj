@@ -1,0 +1,17 @@
+{
+	"id":"aic_superd_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"scripts.weapons.aic_superd_oh",	
+	"length":120.0,
+	"width":20,
+	"fadeTime":0.3,
+	"fringeColor":[222, 222, 255,255],
+	"coreColor":[255, 235, 235,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

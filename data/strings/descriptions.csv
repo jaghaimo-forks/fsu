@@ -1,0 +1,220 @@
+id,type,text1,text2,text3,notes
+
+aic_cap1,SHIP,"Massive engines and enough guns to rip and tear through enemy fleets with no remorse, the Chimera's mere existance is a rumour as this monstrous collection of armor plating and weapon mounts were welded together somewhere deep in the jungles of Perihelion, the Union only use it on operations where it's absolutely necessary to ensure operational goals. Original desgin specifications included the ability easily crush Hegemony and Church Legions and Onslaughts which it does with impunity, this kind of fire power is only rivaled by the Paragon. Built from mostly Legion, Onslaught and other parts that can easily be acquired and produced on Perihelion this clever design completely surprised both  the Hegemony and the Church who believed that the Union would be incapable of producing such large vessels covertly and on their own.",,,
+
+aic_cap1r,SHIP,"Massive engines and with enough guns to rip and tear through enemy fleets with no remorse, the Rhinochimaera's mere existance is a rumour as this monstrous collection of armor plating and weapon mounts were welded together somewhere deep in the depths of the outer Sector, custom built and commanded by the fearsome Levon Trosky. Boasts supercapital like capabilities with incredible range and firepower, with matching durability.",,,
+
+aic_cap2,SHIP,"A nimble battlecruiser built around an experimental propulsion system. High difficulty and cost of construction keep these ships from becoming more commonly adapted. The Falling Sun excels at both hit & run and flanking maneuvers thanks to good mix of firepower and mobility.",,,
+
+aic_cap2boss,SHIP,"Entirely unique modification of Falling Sun battlecruiser, made with unknown purpose in mind. Function of all the lavish additions onboard remains a mystery. Are they just for show, an image of lavish lifestyle beyond reach of most or do they serve a more meaningful function? You'll probably never know the truth of that. A very advanced battlecruiser the Firepower excels at both hit & run and flanking maneuvers thanks to good mix of firepower and mobility.",,,
+
+aic_legionc,SHIP,"Custom built and then modified by the Union, this Legion has been given new specialised weapons and a distinctive stripy paint-job which it's named after, the massive built-in Hook MRM Arrays with the capability to overwhelm an entire fleets worth of point defense specialize the ship into more of a supportive role in Union fleets. The Red Legion entered production once the retrofit and weapons were engineered and tested for it after the discovery and the subsequent acquisition of a functioning Legion blueprint on Perihelion by one of the many tech-miners. as a battlecarrier, the Legion mounts an impressive array of heavy weapons, hangar-space, and command-control sufficient to field four fighter wings. Later models were upgraded with nanoforges keyed to replacement of fightercraft, significantly increasing tooth-to-tail ratio on distant deployments.",,,
+
+aic_cruiserprot1,SHIP,"A mysterious ship found unpowered and derelict at the fringe of the Sector. Seems to have a very complex design with alien capabilities not found on any other ship in the Sector. The only clues to the ships origin are the production info left on the ship ""TRST Minokawa - SERIAL 002.""",,,
+
+aic_dessprot1,SHIP,"A mysterious ship found unpowered and derelict at the fringe of the Sector. Seems to have a very complex design with alien capabilities not found on any other ship in the Sector. The only clues to the ships origin are the production info left on the ship ""TRST Muninn - SERIAL 004.""",,,
+
+aic_protdrone1,SHIP,"A special support drone built into the Muninn hull. Seems to have a special defensive blaster with impressive capabilities.",,,
+
+aic_cruiser1,SHIP,"Probably the most common ship you will see in Union fleets and for a good reason. The Claymore cruiser is built for frontline duties with impressively well rounded stats. Generous missile slots grant it good strike power, but this does leave it lacking in firepower against well defended ships or once the ammo runs dry.",,,
+
+aic_cruiser1s,SHIP,"Probably the most common ship you will see in Union fleets and for a good reason. The Claymore cruiser is designed for frontline duties with impressively well rounded stats. This original variation of the Claymore comes with the oldschool built-in Heavy Annihilator Barrage which grants great dueling power against slower ships, but leaves it lacking in power against more agile ships.",,,
+
+aic_cruiser1r,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. Probably the most common ship you will see in Revolution fleets and for a good reason. The Claymore cruiser is designed for frontline duties with impressively well rounded stats. Comes with the oldschool built-in Heavy Annihilator Barrage which grants great dueling power against slower ships, but leaves it lacking in power against more agile ships.",,,
+
+aic_carrierc1,SHIP,"The Mastodon is a Battlecarrier based on the reliable and well rounded Claymore design made for frontline duties with impressively well rounded stats. Quite alot weaker in a brawl than the Claymore but the fighter bays allow for much greater flexibility in fleets.",,,
+
+aic_cruiser2,SHIP,"An Union navy captains favorite for raiding and fast attack operations. The Arbiter comes with an impressively advanced propulsion system allowing high speed and phase skimming. Designed around hit and run strategies this ship has almost no staying power in prolonged duels. Has a Built-in Griffin Swarm Drone wing to to help with the ships minimal amount of point defense options.",,,
+
+aic_cruiser3,SHIP,"One of the high points of Union engineering. The Apocylapse heavy cruiser combines high firepower and durability with strong shields, decent armor and a MIRV mine layer. It has great standoff power but comes with very limited mobility. Advanced electronics and sensors built into the ship used for mine teleports will also double as ECM/ECCM during downtime.",,,
+
+aic_cruiser4,SHIP,"The Nighthawk is an experimental fast carrier/attack cruiser hybrid intended to harass and kite enemy forces. Its light weapons layout is complimented by the highly advanced Dragonfish heavy fighters which can create a good distraction allowing for highly effective harassment of enemy forces. Although the complicated and sensitive machinery used onboard create many headaches to the engineering team everytime something out of the ordinary goes wrong. Nighthawk's design and origin is a large mystery to other factions there are many theories and rumours circulating about the Nighthawk's capabilities and origins, usually including Tri-Tachyon involvement, alpha-level AI or both. The Hegemony are particulary interested in its design specs and are offering a considerable bounty to anyone willing to turn in a fully functional Nighthawk.",,,
+
+aic_carrierd1,SHIP,"The Rhhea is a heavy duty carrier designed to be ubiqiotus and to have a  relatively cheap production cost, but that does leave it lacking in major strengths by design. Its very common in Union fleets thanks to these traits so it's used frequently in fleets of all sizes. Although as expected its dead in the water on its own and has a rather large maintenance profile for a destroyer.",,,
+
+aic_dess1,SHIP,"Rupture is the ultimate standoff ship built to be frustratingly durable and with an impressive array of weapons, the built-in damper field and integrated targeting unit allow it to go toe to toe with some cruisers. A staple in frontline roles where it can take an imppressive beating and still dish out fire of its own. The result of cramming everything in a destroyer hull has a harsh downside of a weak shield emitter and underpowered engines.",,,
+
+aic_dess1r,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. Rupture is the ultimate standoff ship built to be frustratingly durable and with an impressive array of weapons, the built-in damper field and integrated targeting unit allow it to go toe to toe with some cruisers. A staple in frontline roles where it can take an imppressive beating and still dish out fire of its own. The result of cramming everything in a destroyer hull has a harsh downside of a weak shield emitter and underpowered engines.",,,
+
+aic_dess2,SHIP,"Based on an attemp to make a highly affordable fast attack platform, the end product is an extremely fast ship with decent flux stats. Cheap construction leaves the ship with reduced capabilities particulary the lightweight construction makes the ship very fragile when its shields are down. Although cheap the Twinblade can have great potential in talented hands and is often used in the Union navy to pick and train skilled captains into more expensive and advanced ships.",,,
+
+aic_dess2r,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. Based on an attemp to make a highly affordable fast attack platform, the end product is an extremely fast ship with decent flux stats. Cheap construction leaves the ship with reduced capabilities particulary the lightweight construction makes the ship very fragile when its shields are down. Although cheap the Twinblade can have great potential in talented hands and is often used in the Revolution navy to pick and train skilled captains into more expensive and advanced ships.",,,
+
+aic_dess3,SHIP,"The Widow has an impressive fleet support capability with its large missile mount. All other systems suffer heavily due to the size and weight of the forward mounts leaving the ship very vulnerable on its own.",,,
+
+aic_dess4,SHIP,"The Steelhead is a reliable frontline destroyer with a heavy focus on offensive power. Commonly seen in all Union fleets thanks to being an excellent generalist with a relatively low price tag. The high flexibility comes at the cost of mediocre durability the Steelhead can't hold for long on its own, but excels when supporting more durable ships.",,,
+
+aic_frig1,SHIP,"Some Describe the Slicer as an engine with missiles strapped to it, a highly mobile frigate with excellent missile firepower. Vulnerable against anything faster than it and lacking in sustained dueling power. Its missile slots allow for great flexibility either setting it in a strike or support role in Union fleets.",,,
+
+aic_frig1r,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. Some Describe the Slicer as an engine with missiles strapped to it, a highly mobile frigate with excellent missile firepower. Vulnerable against anything faster than it and lacking in sustained dueling power. Its missile slots allow for great flexibility either setting it in a strike or support role in Revolution fleets.",,,
+
+aic_frigmk2,SHIP,"A desperate third party attempt at increasing fleet firepower by taking two decomissioned and/or wrecked Slicers and just welding them together with little professional equipment or oversight. The mk.II has trouble against anything that isn't a frigate or outnumbered, but its surprising amount of firepower and speed is not to be entirely disregarded.",,,
+
+aic_frig2,SHIP,"The Malediction is an extremely advanced fast attack platform rivaling the combat prowess of the Tempest. An absolute menace to other frigates and slower ships that it can easily outmaneuver. Comes built-in with Pursuer attack drones, an experimental weapons drone with the latest advancements in temporal shell research built-in. Its combat prowess is feared by many trader and frigate captains, there are many stories of how the Malediction can appear almost invulnerable in the right hands.",,,
+
+aic_frig2r,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. The Malediction is an extremely advanced fast attack platform rivaling the combat prowess of the Tempest. An absolute menace to other frigates and slower ships that it can easily outmaneuver. Comes built-in with Pursuer attack drones, an experimental weapons drone with the latest advancements in temporal shell research built-in. Its combat prowess is feared by many trader and frigate captains, there are many stories of how the Malediction can appear almost invulnerable in the right hands.",,,
+
+aic_frig3,SHIP,"A retrofitted Lasher carefully rebuilt from leftover parts and decomissioned hulls. The entire front has been rebuilt to house a medium missile hardpoint, which gives great strike power for a frigate as long as the ammo lasts. It plays a very standard frigate role in fleets where it is capable of filling most common roles although it suffers most in the escort role where the lack of mounts really hurts its potential.",,,
+
+aic_frig3r,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. A retrofitted Lasher carefully rebuilt from leftover parts and decomissioned hulls. The entire front has been rebuilt to house a Typhoon Reaper, which gives great strike power for a frigate as long as the ammo lasts. It plays a very standard frigate role in fleets where it is capable of filling most common roles although it suffers most in the escort role where the lack of mounts really hurts its potential.",,,
+
+aic_frig4,SHIP,"Constructed around the advanced sensor systems capable of Target Painting, the Blackbird is a very useful utility ship based on distracting the enemy with its high durability and speed. Very limited weapons layout and lightweight construction severely limit its power when on its own. The above avarage cost and more complex design limit its more widespread use.",,,
+
+aic_frig5,SHIP,"A Reliable heavy frigate which is built around good staying power. While the Sheartail struggles in duels against even lighter frigates, it excels in dividing and harassing the enemy opening new opportunities for the rest of the fleet.",,,
+
+aic_freighterc1,SHIP,"The Tigon is the end product of a retrofit program intended to improve the combat capabilities of common freighters to acceptable levels for Union operations. The hull is built from a heavily modified Venture, with heavy upgrades to the engines and weapons systems and the old Minig Pod systems are replaced with a proper modular fighter bay. These Heavy upgrades do come at the cost of reduced armor, cargo space and affordability.",,,
+
+aic_freighterc1r,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. The Tigon is the end product of a retrofit program intended to improve the combat capabilities of common freighters to acceptable levels for Union operations. The hull is built from a heavily modified Venture, with heavy upgrades to the engines and weapons systems and the old Minig Pod systems are replaced with a proper modular fighter bay. These Heavy upgrades do come at the cost of reduced armor, cargo space and affordability.",,,
+
+aic_freighterd1,SHIP,"The Yakalo is the end product of a retrofit program intended to improve the combat capabilities of common freighters to acceptable levels for Union operations. A heavily modified Mule with the goal of improved fleet support firepower and survivability, while sacrificing only some cargo space. The Yakalo still can't out duel other destroyers, but has much greater combat capabilities than the base hull. These heavy upgrades increase both supply and credit cost of the ship",,,
+
+aic_freighterd1r,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. The Yakalo is the end product of a retrofit program intended to improve the combat capabilities of common freighters to acceptable levels for Union operations. The Yakalo is the end product of a retrofit program intended to improve the combat capabilities of common freighters to acceptable levels for Union operations. A heavily modified Mule with the goal of improved fleet support firepower and survivability, while sacrificing only some cargo space. The Yakalo still can't out duel other destroyers, but has much greater combat capabilities than the base hull. These heavy upgrades increase both supply and credit cost of the ship",,,
+
+aic_freighterf1,SHIP,"The Coydog is the end product of a retrofit program intended to improve the combat capabilities of common freighters to acceptable levels for Union operations. The combination of a Wayfarer and a Cerberus to produce a respectable combat freighter. The Coydog is one of the better freighters when it comes to combat prowess, but this comes at the cost of an increased price tag.",,,
+
+aic_cerberusr,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. The Cerberus is prized for providing a cost-effective balance between cargo capacity and enough combat power for its size to discourage casual piracy with the happy result of lowered insurance rates compared to standard Domain-era civilian grade freighters. The Cerberus is now widely considered to be a wise platform of operation for independent traders in the Sector.",,,
+
+aic_houndr,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. An old but durable hull class that lacks a shield generator, this frigate is sometimes used to ferry cargo instead of for combat duty. A lucky or gifted officer could make his fortune given the chance to captain one.",,,
+
+aic_kiter,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. A familiar civilian design, the ""Kite""-class aeroshuttle is the day-to-day reminder of Fabrique Orbitale's reputation for aeronautical engineering- a valuable specialty even in the age of space travel. This compact space/aircraft is streamlined for efficient atmospheric flight and boasts a grid of cleverly distributed short-burst 
+uvering thrusters coordinated by a delta-level AI subsystem to ensure smooth landings (a point driven home by Fabrique marketing by way of amusing ad-holos featuring a well-dressed couple and an overfull wine glass). The Kite has powerful engines for a civilian ship of its size, though zero-G maneuverability leaves something to be desired when the special subsystem is not engaged.",,,
+
+aic_buffalor,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. The go-to choice for medium cargo hauling in the Sector, the Buffalo-class freighter exemplifies the ""Load-n-Pray"" principle prevalent in Sector shipping.",,,
+
+aic_phaetonr,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. A medium tanker with enough fuel capacity to support a larger fleet. Tanker duty is often considered punitive in the Hegemony - there's little opportunity for distinction, and less chance of survival should direct contact with the enemy occur.",,,
+
+aic_dramr,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. A light tanker with enough fuel capacity to more than double the effective range of a small task force or convoy.",,,
+
+aic_colossusr,SHIP,"A Surplus hull modified and ""upgraded"" by the Revolution. The Colossus was first adapted for war by Pather militants, but enterprising pirates soon followed their lead. A similarly haphazard process sees most cargo decks collapsed and re-welded to form thick armour dotted with numerous weapons emplacements. The primary cargo bay was left open, however, and converted into an ersatz fighter launch bay with the addition of a micro civilian forge-vat intended for the manufacture of machine parts hacked to accept fighter LPC chips. The forge is poorly integrated with the hull's base power system, resulting in unreliable overall performance.",,,
+
+aic_colossusc,SHIP,"This ship has been thoroughly upgraded and retrofitted up to military spec by the Union. The Colossus is a sturdy and venerable hull well-suited to conditions in the post-Collapse Sector, albeit possessing primitive accommodations and limited defensive armament.",,,
+
+aic_buffaloc,SHIP,"This ship has been thoroughly upgraded and retrofitted up to military spec by the Union. The go-to choice for medium cargo hauling in the Sector, the Buffalo-class freighter exemplifies the ""Load-n-Pray"" principle prevalent in Sector shipping.",,,
+
+aic_kitec,SHIP,"This ship has been thoroughly upgraded and retrofitted up to military spec by the Union. A familiar civilian design, the ""Kite""-class aeroshuttle is the day-to-day reminder of Fabrique Orbitale's reputation for aeronautical engineering- a valuable specialty even in the age of space travel. This compact space/aircraft is streamlined for efficient atmospheric flight and boasts a grid of cleverly distributed short-burst maneuvering thrusters coordinated by a delta-level AI subsystem to ensure smooth landings (a point driven home by Fabrique marketing by way of amusing ad-holos featuring a well-dressed couple and an overfull wine glass). The Kite has powerful engines for a civilian ship of its size, though zero-G maneuverability leaves something to be desired when the special subsystem is not engaged.",,,
+
+aic_phaetonc,SHIP,"This ship has been thoroughly upgraded and retrofitted up to military spec by the Union. A medium tanker with enough fuel capacity to support a larger fleet. Tanker duty is often considered punitive in the Hegemony - there's little opportunity for distinction, and less chance of survival should direct contact with the enemy occur.",,,
+
+aic_dramc,SHIP,"This ship has been thoroughly upgraded and retrofitted up to military spec by the Union. A light tanker with enough fuel capacity to more than double the effective range of a small task force or convoy.",,,
+
+aic_bomber1,SHIP,"The Thorn Strike Bomber is a standard bomber built to fill a similar anti-ship role as the more common Dagger. Lack of a shield emitter and a cheap hull make it easier and faster to produce, but also hurt its potential without proper fighter coverage.",,,
+
+aic_fighter1,SHIP,"This massively overbuilt gunship is designed to strafe around and pound on ships with its impressive array of weapons while other fighters cover it. The Scorch works best when covered for by interceptors or other heavy fighters due to beign much more easily shut down on its own.",,,
+
+aic_fighter2,SHIP,"The Dragonfish is one of the most advanced fighters found in the Sector. Its designed to cause as much disarray in enemy formation as possible with its phase jump and Mini swarm rockets backed up by the main Mini Blaster for some sustained punch. The Dragonfish is shrouded in mystery and many don't even believe such an advanced craft could exist, and those that do are almost certain of Tri-Tachyon involvement.",,,
+
+aic_droned3,SHIP,"Griffin Swarm Drones are based on an improved Borer design by miniaturizing most of the parts and militarizing many of the key systems. A cheap distraction for those that can't afford proper fighters.",,,
+
+aic_droned2,SHIP,"The Pursuer is an experimental weapons drone with the latest advancements in temporal shell research built-in, excels at harassing undefended or distracted ships while The Maldiction can do the heavier lifting. Many believe that Tri-Tachyon has to be behind these advanced designs.",,,
+
+aic_droned1,SHIP,"A Surprisingly advanced heavy interceptor designed for defense duties against fighter and bomber threats. Fitted with a light assault cannon that has great anti-fighter capability, but this fighter will struggle against anything decently armored or shielded. Extremely common in the Union thanks to excelent all around capabilities, although it is somewhat expensive.",,,
+
+aic_station1r,SHIP,"A modified low-tech model orbital station featuring heavy armor and moderate firepower. This platform hosts shipyards, habitats, factories, and large stockpiles of weapons and supplies allowing projection of military and industrial power throughout the local orbital volume.",,,
+
+aic_annihilator_bi,WEAPON,"Capable of delivering dizzying amounts of ordance down range. Comes with a built-in autoloading system that allows for in-combat reloading.",Suppression,,
+
+aic_minireaper,WEAPON,"The Scythe SRT Pod Launches triple linked downsized Reaper torpedoes that have incredible speed and a somewhat advanced guidance package.",Strike,,
+
+aic_dcannon,WEAPON,"A Massive triple barreled cannon with the capability to fire high explosive proximity fused warheads. Based on the Devastator's design this cannon is able to keep The Chimera protected from strike and fighter craft with ease.",PD/Anti-fighter,,
+
+aic_cruisel,WEAPON,"A Massive platform capable of dual firing the impressively powerful Nova cruise missiles. Excelent at crushing larger ships but ineffective against anything mobile.",Long Range Saturation,,
+
+aic_cruisem,WEAPON,"A Miniaturized platform capable of firing the impressively powerful Nova cruise missile. Excelent at crushing larger ships but ineffective against anything mobile. The efforts at cramming the Nova cruise missiles into a medium mount have only been somewhat succesful leaving the weapon with a high ordnance cost and greatly limited rate of fire.",Long Range Saturation,,
+
+aic_ssms,WEAPON,"The Barghest Space Superiority Missile System is a specialised anti-fighter weapon designed to be able to kill entire wings in a burst. Massive magazines used for burst fire take a while reload which could leave the ship temporarily vulnerable",Anti-Fighter,,
+
+aic_scannon1,WEAPON,"A High end weapon that fires charged projectiles capable of disrupting enemy system on hits past shields. The autoloading system grants an impressive burst capability but the damage per second heavily suffers.",Assault/Suppression,,
+
+aic_scannon2,WEAPON,"A dual barreled version with a much larger housing that greatly improves combat capabilities. The Keres fires charged projectiles capable of disrupting enemy system on hits past shields. The autoloading system grants an impressive burst capability but the damage per second heavily suffers.",Assault/Suppression,,
+
+aic_pgsb,WEAPON,"A Pulsed beam weapon with massive capacitors that allow for burst fire of devastating beams. The Pulsed Particle Surge Beam (PPSB for short) is great at swatting smaller targets but effiency and sustained damage against shielded or larger ships is poor.",Anti Small Craft,,
+
+aic_dplb,WEAPON,"The Dual Pulsed Light Blaster uses two modified Pulse Laser barrels that have decently improved range at the cost of damage output. Improved range and lowered flux consumption rate make it an excelent generalist weapon for more flux limited ships or in conjuction with more offensive weapons.",General,,
+
+aic_qplb,WEAPON,"Two Dual Pulsed Light Blasters put together in a larger housing. Genrally underwhelming on its own but the above avarage range and lower flux consumption rate make it an excelent generalist weapon for more flux limited ships or in conjuction with more offensive weapons.",General,,
+
+aic_hook,WEAPON,"The Sheer size of the Hook MRM Array is impressive, capable of delivering a storm of ordnance from a distance and completely saturating enemy point defense systems. Launches special energy-core based warheads that cause unpredictable bursts of radiation dealing bonus damage and causing EMP arcs on hits past shields. Works best when it is used to cover friendly bombers or other strike missiles.",Long Range Saturation,,
+
+aic_nailgun,WEAPON,"A Rapid fire cannon that sacrifices all accuracy for very efficient firepower. The Nailgun is extremely potent at knife fighting, but effective damage quickly falls off with range. Uses special warheads that can violently explode when hitting the weak points of armor or hull.",Assault,,
+
+aic_tremors,WEAPON,"The Tremor MIRV Rack launches a two stage missile that spreads in to devastating unguided rockets once in range. Easily shutdown by AOE point defense, but extremely potent against exposed targets.",Saturation/General,,
+
+aic_tremorm,WEAPON,"The Tremor MIRV Pod launches a two stage missile that spreads in to devastating unguided rockets once in range. Easily shutdown by AOE point defense, but extremely potent against exposed targets.",Saturation/General,,
+
+aic_hail,WEAPON,"Able to deliver a storm of ordnance down range. The Hail Rocket Array fires a large 32 missile burst completely overwhelming weak point defense systems or obliterating overloaded ships. The Hail launches heavily upgraded Annihilator rockets with an initial aiming stage and a secondary warhead that causes extra damage.",Saturation,,
+
+aic_spikes,WEAPON,"Launches potent two stage Spike Medium Range Torpedoes. The first guided state slowly approaches targets and once in range fires the additional boosters and locks aim. The tiny size of the Spike launcher limits ammo to a small amount.",Pressure/General,,
+
+aic_spikem,WEAPON,"Launches potent two stage Spike Medium Range Torpedoes. The first guided state slowly approaches targets and once in range fires the additional boosters and locks aim. This larger pod twin fires missiles and has a respectable ammo count.",Pressure/General,,
+
+aic_spikel,WEAPON,"Launches potent two stage Spike Medium Range Torpedoes. The first guided state slowly approaches targets and once in range fires the additional boosters and locks aim. The largest launcher in the Spike family, this mount can rapid fire eight round bursts of torpedoes with a vast ammo reserve.",Pressure/General,,
+
+aic_hneutron,WEAPON,"A Heavy cannon that fires massive unfocused bolts of energy. Allowing for very high damage output against targets with little or no armor. The unfocused nature of the bolts makes them easily dissipated by both shields and heavy armor, which means it's more effective when used as a support weapon to blast weaker targets.",General,,
+
+aic_mneutron,WEAPON,"A Super heavy cannon that fires a storm of massive unfocused bolts of energy. Allowing for very high damage output against targets with little or no armor. The unfocused nature of the bolts makes them easily dissipated by both shields and heavy armor, which means it's more effective when used as a support weapon to blast weaker targets.",General,,
+
+aic_wardenac,WEAPON,"A Multi-barrel rapidfire weapon specializing in anti-fighter duties. Unique anti-fighter ammunition is used to maximize effectiveness, but this ammo is easily resisted by ship grade armor.",Anti Small Craft,,
+
+aic_superd,WEAPON,"A Pair of massive cannons that fire heavy shrapnel slugs. Excellent at pressuring shields and blasting hull, but needs other weapons to strip heavier armor.",Close Support,,
+
+aic_mine_layer,SHIP_SYSTEM,"Launches MIRV mines that spread into many powerful missiles.",,,
+
+aic_overdrive,SHIP_SYSTEM,"Provides a huge amount of speed and maneuverability, but only for a short moment, has 3 charges.",,,
+
+aic_drive,SHIP_SYSTEM,"Provides a huge amount of speed and maneuverability, but only for a short moment.",,,
+
+aic_painter,SHIP_SYSTEM,"Target Painted ships take 30% bonus damage.",,,
+
+aic_quickload,SHIP_SYSTEM,"Allows the ship to quickly reset the cooldown of missile weapons.",,,
+
+aic_cdrive,SHIP_SYSTEM,"Greatly increases top speed but reduces maneuverability.",,,
+
+aic_phaseteleporter,SHIP_SYSTEM,"Teleport a decent distance.",,,
+
+aic_amode,SHIP_SYSTEM,"Temporarily redirects all power from non critical systems to increase all weapon Rate of fire by 20% and Flux dissipation by 40%.",,,
+
+aic_superdrive,SHIP_SYSTEM,"Large increase in acceleration and top speed for a short burst.",,,
+
+aic_rapidfire,SHIP_SYSTEM,"Dramatically increases ballistic weapon rate of fire for a short moment, has 2 charges.",,,
+
+aic_temporal,SHIP_SYSTEM,"Phase and rapidly charge in the direction the ship is facing and then release a powerful blast of energy.",,,
+
+aic_protdrive,SHIP_SYSTEM,"Boosts ballistic and energy weapon performance and increases top speed at the cost of maneuverability.",,,
+
+aic_slide,SHIP_SYSTEM,"Rapidly move in the direction the ship is moving for a short distance, has 3 charges.",,,
+
+aic_timewarp,SHIP_SYSTEM,"Slow time to a crawl and boost top speed, prevents weapons from firing.",,,
+
+aic_overrof,SHIP_SYSTEM,"Increases Ballistic weapon rate of fire, reduces ballistic weapon flux use and speeds up timeflow. These effects increase in strength the more flux the ship has.",,,
+
+aic,FACTION,"Rising from the ashes of Perihelion this new comer to the grand politics of the sector has seen swift success at revitalizing their destroyed home system of Old Man Star. Most factions don't like the new competition in the sector and heavily associate them with pirates, but not quite all factions share this idea though. The Union has connections in the League and have a deal with the local government at Naxos for the control of the Providence star system in the ongoing border conflict. Rumours circulate about heavy sponsorship by Tri-Tachyon who are supposedly using them to field test new questonably legal technologies. Their arrival is very troubling to the Hegemony and the Church due to them challenging their authority over the sector, they quickly reached a boiling point with Hegemony as skirmishes started growing into larger and larger battles. Deemed as nothing more than pirates, smugglers and other low-lifes by their enemies the Union has fought bitterly to survive in the Sector.
+
+It is said that the Union were some band of pirates and misfits that decided to recolonize Perihelion, which does reflect their less lawful tendencies. Although nowadays they try their hardest to move away from being associated as Pirates. The actual planetary backbone of the Union are the countless largely independendent mininig and salvaging operations, light industries and small research labs dotting their planets surfaces, which are fed resources by the countless raiding operations launched by the Union bringing back scrap and salvage materials. Many come seeking a better fortune working for the Union far away from the more oppressive governments and states of the sector. Minimal oversight by the Union has allowed for high economic growth as long as taxes are paid and relative order is maintained they don't care much for what goes on. This same ragtag way of business extends to the Union military. A similarly colorful collection of ex-pirates, privateers, bounty-hunters and volunteers but with the common goal of keeping the many enemies of the Union at bay who would want to see such pirates and revolutionaries destroyed for good.",,,
+
+air,FACTION,"An Extremist sect that formed somewhat after the arrival of the Union. Revolutionares advocate for immidiate sector wide revolution and liberation instead of ""Sitting around playing petty politics"". The Revolution's extremist and hostile ideals have attracted the negative attention of almost all the factions in the sector.",,,
+
+aic_peri,CUSTOM,"Perihelion is an ancient Domain factory planet that was used to build massive amounts of ships, weapons and much more. It was swiftly secured by the Hegemony as an industrial base during the aftermath of the collapse. Much later it was saturation bombarded by the Tri-Tachyon during the second AI War, after a long and unproductive siege where Tri-Tachyon ground forces failed to gain the upper hand in time, if they couldn't have Perihelion it no one would. Although no planet-killer device was used it was still shortly abandoned by the Hegemony after the event due to resources being stretched incredibly thin by the war and  trying to repair damage of such a massive scale would only have been worwhile in the long term.
+
+After a sometime from the ashes rose a new peculiar faction who called themselves the Free Stars Union, united in the missions to bring freedom to the oppressed people of the sector. The massive amounts of leftover material allow for huge tech-mining and Salvaging potential which is the likely cause for their incredible rise. Now today the battle-scarred jungles Perihelion is the main operations base and home of the Union.",,,
+
+aic_phc,CUSTOM,"A Massive military installation in close orbit of Perihelion, most of the Union navy is based and commanded from here.",,,
+
+aic_ap,CUSTOM,"This chilling planet in crushing darkness was originally colonized thanks to it modest amount of natural resources and was largely unaffected during the AI wars thanks to remaining politically unaligned. Most of the population to this day work in mining and volatile extraction which it produces a decent amount. Aphelion has slowly become less and less lawful and more of full blown a pirate base and a home for other misfits thanks to its geographical isolation from rest of the sector and the Hegemony withdrawal from Perihelion. Aphelion's surprisingly large population is thanks to becoming a place where people live in exile because of their beliefs, political alignment or shady pasts, it's pretty obvious why no one would voluntarily live here.",,,
+
+aic_raa,CUSTOM,"Raa was a small mostly independent world before the Union, the local independent government was overthrown after a violent coup, and afterwards suspiciously petitienod to become a member of The Free Stars Union. Produces crucial raw resources and machinery required for the many industries at Perihelion. Conditions at the surface are brutal but it's the best option the Union has due to the isolation of Old Man Star and hostilities with other factions.",,,
+
+aic_monitor,CUSTOM,"Built by the Tri-Tachyon to ""To maintain diplomatic relations with the Free Stars Union and monitor for illegal activities in the system"". Unsurprisingly offers from the Hegemony to be a part of the Monitor project were quickly denied. Many believe that the Union is secretly helping Tri-Tachyon conduct illegal research and other projects at Perihelion.",,,
+
+aic_olo,CUSTOM,"Olo is an old and tiny mining colony that has always been at the edge of the law. Has seen a major increse in population and activity since the Union buyout of Citadel Providence.",,,
+
+aic_aca,CUSTOM,"The bone dry air, scorching temperatures and crushing gravity of Acapolco make it an exhausting place to live. The dense atmosphere is filled with greenhouse gasses which causes the higher than expected temperatures. Nonetheless it is a major hub of production and mining for the Hegemony and even some farming is possible at the poles. Military presence is ever increasing due to the ongoing border conflict in the system.",,,
+
+aic_naxos,CUSTOM,"Surface conditions are very hostile at Naxos the temperatures are lethal without pretection. Colonized despite its dangerous conditions thanks to an abundance of ores and is a major producer of ore and metal. Highly Militarized due to its perilous position in the middle of the Providence border conflict.",,,
+
+aic_ark,CUSTOM,"The Churches claim to the Providence system. Has large quantities of arable land and is a large producer of food and organics. By far the nicest place to live in the system, that is if you ignore the fact that any day could be interrupted by a hostile saturation bombardment.",,,
+
+aic_citadel,CUSTOM,"An Old pirate fortress that was used to stage raiding operations and as a hideout. That was until the Free Stars Union made a deal to buy the entire station from the local warlords, and is now seeing massive and constant expansion projects due to the ongoing war for the control of the Providence system. Hosts the Citadel Dockyards a large military market which sells large amounts of weapons and ships to those with the right connections.",,,
+
+aic_hek,CUSTOM,"Home to the Free Stars Revolution an extremist sect of union. Conditions on the surface are harsh and resources sparse but that doesn't stop the devout believers of sector wide revolution.",,,
+
+,,"",,,

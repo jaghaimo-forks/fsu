@@ -1,0 +1,10 @@
+{
+	"id":"Aic", # internal id
+	"name":"Free Stars Union", # displayed to the player
+	"author":"Kissa Mies",
+	"version":"1.2.0",
+	"description":"Adds a new friendly neighborhood Union. (Contains NO pirates)",
+	"gameVersion":"0.9.1a",
+	"modPlugin":"scripts.AicModPlugin",
+	"jars":["jars/FSU.jar"]
+}

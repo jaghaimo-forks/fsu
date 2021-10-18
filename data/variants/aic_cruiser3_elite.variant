@@ -1,0 +1,62 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "aic_cruiser3",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "variantId": "aic_cruiser3_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "aic_qplb",
+                "WS0008": "tachyonlance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "sabotpod",
+                "WS0014": "sabotpod",
+                "WS0019": "sabotpod",
+                "WS0020": "aic_tremors",
+                "WS0021": "aic_tremors"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0005": "taclaser",
+                "WS0006": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "aic_hneutron",
+                "WS0002": "aic_hneutron"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdburst",
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser"
+            }
+        }
+    ]
+}

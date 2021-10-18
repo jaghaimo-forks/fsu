@@ -1,0 +1,162 @@
+{
+	"starSystem":"aic_provi",
+	"markets":[
+		{
+			"entities":["aic_aca"],
+			"faction":"hegemony",
+			"size":6,
+			"freePort":false,
+			"startingConditions":[			
+				"population_6",
+				"habitable",
+				"rare_ore_sparse",
+				"ore_moderate",
+				"hot",
+				"high_gravity",
+				"farmland_poor",				
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"mining",
+				"farming",
+				"battlestation",
+				"heavybatteries",
+				"militarybase",
+				"heavyindustry",
+			],
+			"submarkets":[
+				"open_market",
+				"generic_military",
+				"black_market",
+				"storage",
+			],
+		},
+		{
+			"entities":["aic_ark"],
+			"faction":"luddic_church",
+			"size":6,
+			"freePort":false,
+			"startingConditions":[
+				"habitable",
+				"population_6",
+				"ore_abundant",
+				"organics_plentiful",
+				"farmland_adequate",
+				"luddic_majority",
+				"cottage_industry",
+			],
+			"industries":[
+				"population",
+				"mining",
+				"lightindustry",
+				"farming",
+				"spaceport",
+				"grounddefenses",
+				"patrolhq",
+				"orbitalstation",
+			],
+			"submarkets":[
+				"open_market",
+				"black_market",
+				"storage",
+			],
+		},
+
+		{
+			"entities":["aic_naxos"],
+			"faction":"persean",
+			"size":6,
+			"freePort":false,
+			"startingConditions":[
+				"population_6",
+				"ore_rich",
+				"rare_ore_rich",
+				"thin_atmosphere",
+				"hot",
+				"organized_crime",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"mining",
+				"refining",
+				["heavyindustry", "corrupted_nanoforge"],
+				"battlestation_mid",
+				"heavybatteries",
+				"militarybase",
+			],
+			"submarkets":[
+				"open_market",
+				"black_market",
+				"generic_military",
+				"storage",
+			],
+		},
+		
+				{
+			"entities":["aic_citadel"],
+			"faction":"aic",
+			"size":5,
+			"freePort":true,
+			"startingConditions":[
+				"population_5",
+				"aic_md",
+				"headquarters",
+				"stealth_minefields",
+			],
+			"industries":[
+				"population",
+				"waystation",
+				"spaceport",
+				"starfortress",
+				"heavybatteries",
+				["heavyindustry", "corrupted_nanoforge"],
+				"commerce",				
+				"militarybase"
+			],
+			
+			"submarkets":[
+				"open_market",
+				"aic_citadeldock",	
+				"generic_military",				
+				"storage",
+			],
+				
+			
+		},
+{
+			"entities":["aic_olo"],
+			"faction":"pirates",
+			"size":4,
+			"freePort":false,
+			"startingConditions":[
+				"population_4",
+				"ore_abundant",
+				"volatiles_diffuse",
+				"thin_atmosphere",
+				"cold",		
+				"frontier",
+				"vice_demand",
+			],
+			"industries":[
+				"population",
+				"mining",
+				"lightindustry",
+				"spaceport",
+				"grounddefenses",
+				"patrolhq",
+			],
+			"submarkets":[
+				"open_market",
+				"black_market",
+				"storage",
+			],
+		},		
+		
+		
+	],
+}
+
+
+

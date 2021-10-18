@@ -1,0 +1,55 @@
+{
+    "displayName": "Superior",
+    "fluxCapacitors": 9,
+    "fluxVents": 30,
+    "hullId": "eagle_xiv",
+    "hullMods": [
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "variantId": "aic_eaglexiv_boss",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "hveldriver",
+                "WS 008": "hveldriver",
+                "WS 013": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "reaper",
+                "WS 002": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "phasebeam",
+                "WS 009": "phasebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "mininglaser",
+                "WS 004": "mininglaser",
+                "WS 010": "lrpdlaser",
+                "WS 011": "lrpdlaser",
+                "WS 012": "lrpdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "aic_frig4",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "aic_hitargeting",
+        "fluxcoil"
+    ],
+    "permaMods": [],
+    "variantId": "aic_frig4_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ioncannon",
+                "WS0002": "irpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "aic_spikes",
+                "WS0004": "aic_spikes"
+            }
+        }
+    ]
+}

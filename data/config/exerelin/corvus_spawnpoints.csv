@@ -1,0 +1,5 @@
+faction,system,entityID
+#machine name,#human name,#machine name
+,,
+aic,Oms,aic_peri
+air,Oms,aic_hek

@@ -1,0 +1,23 @@
+{
+    "displayName": "Orbital Station",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "aic_station1r",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "aic_station1r_std",
+    "weaponGroups": [],
+    "modules": [
+    
+     # defense modules
+		{"WS 009": "aic_module_large1r_lowtech_std"},
+		{"WS 010": "aic_module_large2r_lowtech_std"},
+		{"WS 011": "aic_module_large2r_lowtech_std"},
+    
+    # armour struts
+		{"WS 006": "module_armour3_Standard"},
+		{"WS 007": "module_armour3_Standard"},
+		{"WS 008": "module_armour3_Standard"},
+		
+    ],
+}

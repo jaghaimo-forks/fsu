@@ -1,0 +1,36 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 2,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "aic_dess2",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "aic_dess2_so",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "aic_hneutron",
+                "WS0004": "aic_hneutron"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "aic_nailgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser"
+            }
+        }
+    ]
+}
